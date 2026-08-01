@@ -1,14 +1,22 @@
 <?php
 /**
  * Plugin Name: QuranlyHub Core
- * Description: Registers Rank Math SEO meta fields for the REST API so QuranlyHub can set per-page SEO titles and descriptions programmatically.
- * Version: 1.0.0
+ * Description: Registers Rank Math SEO meta fields for the REST API so QuranlyHub can set per-page SEO titles and descriptions programmatically. Also switches permalinks to Post name on activation.
+ * Version: 1.1.0
  * Author: QuranlyHub
  * License: GPL-2.0-or-later
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
+}
+
+register_activation_hook( __FILE__, 'qly_set_pretty_permalinks' );
+function qly_set_pretty_permalinks() {
+	if ( get_option( 'permalink_structure' ) === '' ) {
+		update_option( 'permalink_structure', '/%postname%/' );
+		flush_rewrite_rules();
+	}
 }
 
 add_action( 'init', 'qly_register_seo_meta' );
