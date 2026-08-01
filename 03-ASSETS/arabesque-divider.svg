@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="16" viewBox="0 0 1200 16" role="img" aria-label="" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="arab" x="0" y="0" width="120" height="16" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#D4A017" stroke-width="1.6" opacity="0.9">
+        <rect x="6" y="6" width="10" height="10" transform="rotate(45 11 11)" stroke-linecap="round"/>
+        <circle cx="11" cy="8" r="3.2"/>
+        <circle cx="71" cy="8" r="1.6"/>
+      </g>
+      <g fill="#B8850F">
+        <circle cx="41" cy="8" r="1.8"/>
+        <circle cx="91" cy="8" r="1.8"/>
+      </g>
+    </pattern>
+  </defs>
+  <rect width="1200" height="16" fill="url(#arab)"/>
+</svg>

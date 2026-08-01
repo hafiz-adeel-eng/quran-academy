@@ -1,0 +1,214 @@
+/* ==========================================================================
+   QuranlyHub — Home page custom CSS (mobile-first)
+   Paste into: Astra → Customizer → Additional CSS (or Elementor Custom Code).
+   Mobile-first: base rules are for phones; desktop rules live in the
+   @media (min-width) queries.
+   ========================================================================== */
+
+:root {
+  --qly-white: #FFFFFF;
+  --qly-blue: #123B57;
+  --qly-blue-mid: #1B5A82;
+  --qly-gold-light: #F2C94C;
+  --qly-gold-deep: #B8850F;
+  --qly-gold: #D4A017;
+  --qly-border: rgba(18, 59, 87, 0.14);
+  --qly-shadow: 0 2px 14px rgba(18, 59, 87, 0.05);
+}
+
+/* Body text is deep blue, never black */
+.elementor-kit-body, body.elementor-page {
+  color: var(--qly-blue);
+  font-family: "Inter", sans-serif;
+}
+
+/* ----- Cards ----- */
+.qly-card {
+  background: var(--qly-white);
+  border: 1px solid var(--qly-border);
+  box-shadow: var(--qly-shadow);
+  border-radius: 14px;
+  overflow: hidden;
+}
+/* mihrab-arch radius on major cards */
+.qly-card-arch {
+  border-radius: 24px 24px 14px 14px;
+}
+
+/* ----- Icon circles ----- */
+.qly-icon-circle {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--qly-gold);
+  color: #FFFFFF;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+.qly-icon-circle-blue {
+  background: var(--qly-gold-light);
+  color: var(--qly-blue);
+}
+
+/* ----- Sections ----- */
+.qly-section {
+  padding: 48px 20px;
+}
+.qly-eyebrow {
+  color: var(--qly-gold-deep);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/* ----- Hero (blue band) ----- */
+.qly-hero {
+  background: var(--qly-blue);
+  color: #FFFFFF;
+  padding: 56px 20px;
+}
+.qly-hero .qly-eyebrow {
+  color: var(--qly-gold-light);
+}
+.qly-hero .elementor-heading-title {
+  color: #FFFFFF;
+}
+.qly-hero p {
+  color: #FFFFFF;
+}
+
+/* ----- Stats band (blue) ----- */
+.qly-stats-band {
+  background: var(--qly-blue);
+  color: #FFFFFF;
+  padding: 56px 20px;
+}
+.qly-stats-number {
+  color: var(--qly-gold-light);
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1;
+}
+
+/* ----- Pricing card (blue highlight) ----- */
+.qly-pricing-card {
+  background: var(--qly-blue);
+  color: #FFFFFF;
+  border-radius: 24px 24px 14px 14px;
+  border: none;
+  box-shadow: var(--qly-shadow);
+}
+.qly-pricing-card .elementor-heading-title {
+  color: var(--qly-gold-light);
+}
+.qly-pricing-card p, .qly-pricing-card li {
+  color: #FFFFFF;
+}
+.qly-ribbon {
+  background: var(--qly-gold-light);
+  color: var(--qly-blue);
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* ----- Final CTA (solid gold) ----- */
+.qly-cta-gold {
+  background: var(--qly-gold);
+  padding: 56px 20px;
+}
+.qly-cta-gold .elementor-heading-title {
+  color: #FFFFFF;
+}
+.qly-cta-gold p {
+  color: #FFFFFF;
+}
+
+/* ----- Footer ----- */
+.qly-footer {
+  background: var(--qly-blue);
+  color: #FFFFFF;
+  padding: 48px 20px 24px;
+}
+.qly-footer .elementor-heading-title {
+  color: var(--qly-gold-light);
+}
+.qly-footer a {
+  color: #FFFFFF;
+}
+.qly-footer a:hover {
+  color: var(--qly-gold-light);
+}
+
+/* ----- Testimonials: equal-height cards ----- */
+.qly-card p {
+  margin-bottom: 0;
+}
+
+/* ----- Sticky mobile CTA bar (phones only) ----- */
+.qly-mobile-cta {
+  display: none;
+}
+@media (max-width: 768px) {
+  .qly-mobile-cta {
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background: #FFFFFF;
+    border-top: 1px solid var(--qly-border);
+    padding: 10px 16px;
+    gap: 10px;
+  }
+  .qly-mobile-cta a {
+    flex: 1;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .qly-mobile-cta .qly-cta-trial {
+    background: var(--qly-gold);
+    color: #FFFFFF;
+  }
+  .qly-mobile-cta .qly-cta-wa {
+    background: var(--qly-blue);
+    color: #FFFFFF;
+  }
+  /* keep page bottom clear of the fixed bar */
+  body.elementor-page {
+    padding-bottom: 64px;
+  }
+}
+
+/* ----- Desktop upscale ----- */
+@media (min-width: 769px) {
+  .qly-section {
+    padding: 88px 20px;
+  }
+  .qly-hero {
+    padding: 72px 0;
+  }
+  .qly-stats-band {
+    padding: 72px 0;
+  }
+  .qly-stats-number {
+    font-size: 54px;
+  }
+  .qly-cta-gold {
+    padding: 72px 0;
+  }
+}

@@ -1,0 +1,134 @@
+/* ==========================================================================
+   QuranlyHub — Course pages custom CSS (mobile-first)
+   Paste after 02-HOME/03-home-custom-css.css (reuses its tokens/classes).
+   ========================================================================== */
+
+/* ----- Course cards (hub) ----- */
+.qly-course-card {
+  background: var(--qly-white);
+  border: 1px solid var(--qly-border);
+  box-shadow: var(--qly-shadow);
+  border-radius: 24px 24px 14px 14px;
+  overflow: hidden;
+  padding: 24px;
+  transition: box-shadow 0.2s ease;
+}
+.qly-course-card:hover {
+  box-shadow: 0 4px 18px rgba(18, 59, 87, 0.10);
+}
+.qly-course-card h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: var(--qly-blue);
+  margin: 14px 0 8px;
+}
+.qly-course-card p {
+  color: var(--qly-blue);
+  font-size: 15px;
+  line-height: 1.55;
+  margin-bottom: 12px;
+}
+.qly-course-card .qly-link {
+  color: var(--qly-gold-deep);
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+}
+.qly-course-card .qly-link:hover {
+  text-decoration: underline;
+}
+
+/* ----- Curriculum list (course pages) ----- */
+.qly-curriculum-item {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  background: var(--qly-white);
+  border: 1px solid var(--qly-border);
+  box-shadow: var(--qly-shadow);
+  border-radius: 14px;
+  padding: 18px 20px;
+}
+.qly-curriculum-item .qly-check {
+  color: var(--qly-gold);
+  font-size: 18px;
+  line-height: 1.4;
+  flex: 0 0 auto;
+}
+.qly-curriculum-item h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--qly-blue);
+  margin: 0 0 4px;
+}
+.qly-curriculum-item p {
+  color: var(--qly-blue);
+  font-size: 15px;
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* ----- Audience cards ----- */
+.qly-audience-card {
+  background: var(--qly-white);
+  border: 1px solid var(--qly-border);
+  box-shadow: var(--qly-shadow);
+  border-radius: 14px;
+  padding: 22px;
+  text-align: center;
+}
+.qly-audience-card h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: var(--qly-blue);
+  margin: 12px 0 6px;
+}
+.qly-audience-card p {
+  color: var(--qly-blue);
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.qly-audience-card .qly-link {
+  color: var(--qly-gold-deep);
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+}
+.qly-audience-card .qly-link:hover {
+  text-decoration: underline;
+}
+
+/* ----- Mini info cards (structure) ----- */
+.qly-mini-card {
+  background: var(--qly-white);
+  border: 1px solid var(--qly-border);
+  box-shadow: var(--qly-shadow);
+  border-radius: 14px;
+  padding: 20px;
+}
+.qly-mini-card h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--qly-blue);
+  margin: 0 0 6px;
+}
+.qly-mini-card p {
+  color: var(--qly-blue);
+  font-size: 15px;
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* ----- Section padding (mobile-first) ----- */
+.qly-section {
+  padding: 48px 20px;
+}
+@media (min-width: 769px) {
+  .qly-section {
+    padding: 88px 20px;
+  }
+}
