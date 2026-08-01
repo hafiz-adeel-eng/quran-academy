@@ -1,8 +1,8 @@
 /* ==========================================================================
-   QuranlyHub — Brand theme CSS (mobile-first)
-   Child theme for Hello Elementor. Includes the design system tokens,
-   home + course card classes, plus plain-HTML styles (.qly-btn, .qly-grid)
-   so API-created pages render on-brand without Elementor widgets.
+   QuranlyHub — Brand CSS (mobile-first)
+   Loaded by the QuranlyHub Core plugin (works with the Hello Elementor theme
+   or any theme). Design tokens, plain-HTML page classes (.qly-btn, .qly-grid)
+   so API-created pages render on-brand, plus site chrome (header/footer/logo).
    ========================================================================== */
 
 :root {
@@ -189,20 +189,6 @@ a:hover { color: #9a6f0d; }
 .qly-cta-gold h1, .qly-cta-gold h2 { color: #FFFFFF; }
 .qly-cta-gold p { color: #FFFFFF; }
 
-/* ----- Footer (site footer) ----- */
-.qly-footer {
-  background: var(--qly-blue);
-  color: #FFFFFF;
-  padding: 48px 20px 24px;
-}
-.qly-footer h2, .qly-footer h3, .qly-footer h4 { color: var(--qly-gold-light); }
-.qly-footer a { color: #FFFFFF; }
-.qly-footer a:hover { color: var(--qly-gold-light); }
-.qly-footer .qly-footer-cols { display: grid; grid-template-columns: 1fr; gap: 28px; }
-@media (min-width: 769px) {
-  .qly-footer .qly-footer-cols { grid-template-columns: 2fr 1fr 1fr 1.2fr; }
-}
-
 /* ----- Course / curriculum cards ----- */
 .qly-course-card {
   background: var(--qly-white);
@@ -336,4 +322,96 @@ a:hover { color: #9a6f0d; }
   .qly-stats-band { padding: 72px 0; }
   .qly-stats-number { font-size: 54px; }
   .qly-cta-gold { padding: 72px 0; }
+}
+
+/* ==========================================================================
+   Site chrome — header, logo, footer, page chrome
+   (Overrides the host theme's default header/footer structure.)
+   ========================================================================== */
+
+/* Pages carry their own hero — drop the default "Page title" H1. */
+.page-header { display: none !important; }
+
+/* ----- Header: white, sticky look, professional ----- */
+.site-header {
+  background: #FFFFFF;
+  border-bottom: 1px solid var(--qly-border);
+  box-shadow: 0 2px 14px rgba(18, 59, 87, 0.06);
+}
+.site-header .header-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.site-header .site-branding { flex: 0 0 auto; margin: 0; }
+.site-header .custom-logo-link { display: block; }
+.site-header .custom-logo {
+  max-height: 60px;
+  width: auto;
+  height: auto;
+}
+.site-header .site-navigation { margin: 0; flex: 1 1 auto; }
+.site-header .menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 4px 24px;
+}
+.site-header .menu li { margin: 0; }
+.site-header .menu a {
+  display: block;
+  color: var(--qly-blue);
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 6px 0;
+  border-bottom: 2px solid transparent;
+}
+.site-header .menu a:hover { border-bottom-color: var(--qly-gold); color: var(--qly-gold-deep); }
+.site-header .menu li.current-menu-item > a { border-bottom-color: var(--qly-gold); }
+.qly-header-cta { margin-left: 4px; flex: 0 0 auto; }
+.qly-header-cta a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 8px 18px;
+  background: var(--qly-gold);
+  color: #FFFFFF;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+}
+.qly-header-cta a:hover { background: var(--qly-gold-deep); color: #FFFFFF; }
+
+/* ----- Footer: dark navy, white text, no dark logo mark ----- */
+.site-footer {
+  background: var(--qly-blue);
+  color: #FFFFFF;
+  border-top: 3px solid var(--qly-gold);
+}
+.site-footer .footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 28px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.site-footer .site-logo { display: none; }
+.site-footer .copyright p { color: rgba(255, 255, 255, 0.85); font-size: 14px; margin: 0; }
+
+/* ----- Mobile header: wrap the menu below the logo ----- */
+@media (max-width: 768px) {
+  .site-header .header-inner { flex-wrap: wrap; justify-content: center; }
+  .site-header .site-navigation { order: 3; width: 100%; }
+  .site-header .menu { justify-content: center; }
 }

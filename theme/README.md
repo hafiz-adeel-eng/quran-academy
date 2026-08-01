@@ -1,20 +1,10 @@
-# Theme — Deploy via WP Pusher
+# Theme — Optional child theme (deploy via WP Pusher)
 
-This `theme/` folder is a real WordPress child theme (Hello Elementor parent) holding the QuranlyHub brand layer: fonts, colors, cards, buttons, grids, the count-up script and the testimonial carousel CSS.
+A minimal **Hello Elementor child theme**. All brand styling is loaded by the **QuranlyHub Core plugin** (see `plugin/`), so this theme is optional — it only registers nav-menu locations, custom-logo support, and the parent stylesheet.
 
-## Deploy (2 minutes)
+## Deploy
+- **WP Pusher:** Install from GitHub → repo `hafiz-adeel-eng/quran-academy` → Branch `main` → Type **Theme** → Subdirectory `theme` → Install → Activate.
+- **Manual:** zip the `theme/` folder → Appearance → Themes → Add New → Upload Theme → Activate.
 
-1. In WP admin → **WP Pusher** → connect your GitHub account (authorize `hafiz-adeel-eng`).
-2. **Install from GitHub** → Repository: `hafiz-adeel-eng/quran-academy` → Branch: `main` → Type: **Theme** → Subdirectory: `theme` → **Install**.
-3. WP admin → **Appearance → Themes** → activate **QuranlyHub Child**.
-4. Done — brand styles are live sitewide.
-
-## What it does
-
-- Enqueues the parent Hello Elementor styles, then the QuranlyHub brand CSS + Google Fonts (Cormorant Garamond / Inter / Amiri) + the count-up/carousel JS.
-- Adds `.qly-*` classes (cards, buttons, grids, blue/gold bands) used by the API-created pages so they render on-brand.
-- Registers `primary` and `footer` nav menus for the future Theme Builder header/footer.
-
-## Re-deploying after CSS/JS changes
-
-Commit + push to GitHub → WP Pusher shows the update → click the **Update** button in WP Pusher. Changes go live instantly.
+## Recommendation
+Install the **plugin first** — that alone makes the site fully branded. The theme is a small extra on top.

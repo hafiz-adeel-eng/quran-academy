@@ -1,13 +1,18 @@
-# Plugin — Deploy via WP Pusher
+# Plugin — Deploy via WP Pusher (or manual upload)
 
-Companion plugin to the QuranlyHub child theme. Its only job: register the Rank Math SEO meta keys (`rank_math_title`, `rank_math_description`) with `show_in_rest` so the site's SEO titles and descriptions can be set through the WordPress REST API (and stay in sync with the page content).
+**QuranlyHub Core** is the single package that makes the whole site look professional. Install + activate it and everything below goes live immediately:
+
+## What it does
+- Loads the full **QuranlyHub brand** (blue/gold design system, Cormorant Garamond/Inter fonts, buttons, cards, grids, stats, CTA bands, responsive tables) across every page.
+- **Logo**: sizes the site logo correctly (max 60px) in the header.
+- **Header**: white, professional, with a primary nav menu (Home · Courses · Pricing · Free Trial · Contact) plus a gold **Free Trial** button — created and assigned automatically on activation.
+- **Footer**: branded dark navy with white text.
+- Removes the default duplicate "Page title" H1 (pages carry their own hero).
+- Registers **Rank Math SEO meta** (`rank_math_title`, `rank_math_description`) for the REST API so per-page SEO is set programmatically.
+- Switches **permalinks to Post name** on activation (and creates the nav menu).
 
 ## Deploy
+- **WP Pusher:** Install from GitHub → repo `hafiz-adeel-eng/quran-academy` → Branch `main` → Type **Plugin** → Subdirectory `plugin` → Install → Activate.
+- **Manual:** zip the `plugin/` folder → Plugins → Add New → Upload Plugin → Activate.
 
-In WP admin → **WP Pusher** → **Install from GitHub** → Repository: `hafiz-adeel-eng/quran-academy` → Branch: `main` → Type: **Plugin** → Subdirectory: `plugin` → **Install**, then **Activate**.
-
-You can add this as a second package next to the theme package in WP Pusher — both point to the same repo, different subdirectories.
-
-## Why it exists
-
-Without it, WordPress silently ignores `rank_math_*` keys posted to the REST API, so per-page SEO metas cannot be written programmatically. Activating this plugin enables exactly that.
+The `theme/` child theme is optional polish on top (nav menu locations + parent styles). The plugin works with plain Hello Elementor.

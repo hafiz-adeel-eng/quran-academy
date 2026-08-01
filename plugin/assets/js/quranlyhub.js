@@ -1,12 +1,9 @@
 /* ==========================================================================
-   QuranlyHub — Home page behaviour JS (vanilla, no dependencies, lightweight)
-   Add via: Elementor → Custom Code → Script (in_body), or a small mu-plugin.
-
+   QuranlyHub — Brand JS (vanilla, no dependencies, lightweight)
    1. Stat counters: animate once when the stats band scrolls into view.
-      Markup on each number heading widget:
-        <span class="qly-stat-value" data-target="5000">0</span>
-   2. Optional autoplay helper for the free scroll-snap testimonial carousel
-      (only used if Elementor Pro's Testimonial Carousel is not available).
+      Markup: <span class="qly-stat-value" data-target="5000">0</span>
+   2. Free fallback carousel autoplay for the scroll-snap testimonial track.
+   3. Header CTA: inject a "Free Trial" button into the site header.
    ========================================================================== */
 
 (function () {
@@ -64,8 +61,7 @@
     onStatVisible();
   }
 
-  /* Free fallback carousel autoplay — drives the scroll-snap track.
-     Only active when the `.qly-scroll-carousel` markup is present. */
+  /* Free fallback carousel autoplay — drives the scroll-snap track. */
   var track = document.querySelector('.qly-scroll-carousel');
   if (track && !('ElementorCarousel' in window)) {
     var cards = track.children.length;
@@ -81,5 +77,14 @@
     track.addEventListener('touchstart', function () {
       clearInterval(timer);
     }, { passive: true });
+  }
+
+  /* Header CTA button */
+  var headerInner = document.querySelector('.site-header .header-inner');
+  if (headerInner && !document.querySelector('.qly-header-cta')) {
+    var cta = document.createElement('div');
+    cta.className = 'qly-header-cta';
+    cta.innerHTML = '<a href="/free-trial/">Free Trial</a>';
+    headerInner.appendChild(cta);
   }
 })();

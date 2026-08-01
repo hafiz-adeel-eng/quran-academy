@@ -2,49 +2,29 @@
 /**
  * QuranlyHub Child Theme
  * Deployed via WP Pusher from the quran-academy GitHub repo (theme/ subdirectory).
+ *
+ * Note: all brand styling (colors, cards, header/footer, JS) is loaded by the
+ * QuranlyHub Core plugin, so it works even without this theme. This child theme
+ * only ensures the parent styles and nav menu locations exist.
  */
 
-// Enqueue parent (Hello Elementor) stylesheet first.
-add_action('wp_enqueue_scripts', 'quranlyhub_parent_styles', 15);
-function quranlyhub_parent_styles() {
+// Enqueue parent (Hello Elementor) stylesheet + this child's style.css.
+add_action('wp_enqueue_scripts', 'quranlyhub_styles', 15);
+function quranlyhub_styles() {
     wp_enqueue_style('quranlyhub-parent', get_template_directory_uri() . '/style.css');
+    wp_enqueue_style('quranlyhub-child', get_stylesheet_uri(), array('quranlyhub-parent'), '1.0.0');
 }
 
-// Brand fonts, CSS and JS.
-add_action('wp_enqueue_scripts', 'quranlyhub_assets', 20);
-function quranlyhub_assets() {
-    wp_enqueue_style(
-        'quranlyhub-fonts',
-        'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;600;700&family=Amiri:wght@400;700&display=swap',
-        array(),
-        null
-    );
-    wp_enqueue_style(
-        'quranlyhub-brand',
-        get_stylesheet_directory_uri() . '/assets/css/quranlyhub.css',
-        array('quranlyhub-parent'),
-        '1.0.0'
-    );
-    wp_enqueue_script(
-        'quranlyhub-main',
-        get_stylesheet_directory_uri() . '/assets/js/quranlyhub.js',
-        array(),
-        '1.0.0',
-        true
-    );
-}
-
-// Preconnect to font providers (speed).
-add_filter('wp_resource_hints', function ($urls, $relation_type) {
-    if ('preconnect' === $relation_type) {
-        $urls[] = array('href' => 'https://fonts.googleapis.com');
-        $urls[] = array('href' => 'https://fonts.gstatic.com', 'crossorigin');
-    }
-    return $urls;
-}, 10, 2);
-
-// Navigation menus (used by the future Theme Builder header/footer).
+// Navigation menus (used by the Hello Elementor header/footer).
 register_nav_menus(array(
-    'primary' => 'Primary Menu',
-    'footer'  => 'Footer Menu',
+    'menu-1'      => 'Primary Menu',
+    'footer-menu' => 'Footer Menu',
+));
+
+// Custom logo support for the header.
+add_theme_support('custom-logo', array(
+    'height'      => 60,
+    'width'       => 180,
+    'flex-height' => true,
+    'flex-width'  => true,
 ));
