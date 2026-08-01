@@ -1,0 +1,339 @@
+/* ==========================================================================
+   QuranlyHub — Brand theme CSS (mobile-first)
+   Child theme for Hello Elementor. Includes the design system tokens,
+   home + course card classes, plus plain-HTML styles (.qly-btn, .qly-grid)
+   so API-created pages render on-brand without Elementor widgets.
+   ========================================================================== */
+
+:root {
+  --qly-white: #FFFFFF;
+  --qly-blue: #123B57;
+  --qly-blue-mid: #1B5A82;
+  --qly-gold-light: #F2C94C;
+  --qly-gold-deep: #B8850F;
+  --qly-gold: #D4A017;
+  --qly-border: rgba(18, 59, 87, 0.14);
+  --qly-shadow: 0 2px 14px rgba(18, 59, 87, 0.05);
+}
+
+/* Body text is deep blue, never black */
+body {
+  color: var(--qly-blue);
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Headings: Cormorant Garamond (brand serif) */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  color: var(--qly-blue);
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0 0 0.5em;
+}
+h1 { font-size: 32px; }
+h2 { font-size: 25px; }
+h3 { font-size: 20px; }
+@media (min-width: 769px) {
+  h1 { font-size: 54px; }
+  h2 { font-size: 38px; }
+  h3 { font-size: 24px; }
+}
+
+a { color: var(--qly-gold-deep); }
+a:hover { color: #9a6f0d; }
+
+/* ----- Layout helpers (plain-HTML pages) ----- */
+.qly-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.qly-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+.qly-grid.cols-2, .qly-grid.cols-3, .qly-grid.cols-4 { grid-template-columns: 1fr; }
+@media (min-width: 769px) {
+  .qly-grid.cols-2 { grid-template-columns: repeat(2, 1fr); }
+  .qly-grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
+  .qly-grid.cols-4 { grid-template-columns: repeat(4, 1fr); }
+}
+.qly-center { text-align: center; }
+
+/* ----- Buttons ----- */
+.qly-btn {
+  display: inline-block;
+  background: var(--qly-gold);
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 15px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  border: none;
+  min-height: 44px;
+  line-height: 1.2;
+  transition: background 0.2s ease;
+}
+.qly-btn:hover {
+  background: var(--qly-gold-deep);
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.qly-btn-blue {
+  background: var(--qly-blue);
+  color: #FFFFFF;
+}
+.qly-btn-blue:hover { background: var(--qly-blue-mid); color: #FFFFFF; }
+.qly-btn-ghost {
+  background: transparent;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+.qly-btn-ghost:hover { background: rgba(255, 255, 255, 0.12); color: #FFFFFF; }
+.qly-btn-sm { padding: 11px 20px; font-size: 15px; }
+
+/* ----- Cards ----- */
+.qly-card {
+  background: var(--qly-white);
+  border: 1px solid var(--qly-border);
+  box-shadow: var(--qly-shadow);
+  border-radius: 14px;
+  overflow: hidden;
+  padding: 24px;
+}
+.qly-card-arch { border-radius: 24px 24px 14px 14px; }
+.qly-card h3 { margin-top: 0; }
+
+/* ----- Icon circles ----- */
+.qly-icon-circle {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--qly-gold);
+  color: #FFFFFF;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+.qly-icon-circle-blue {
+  background: var(--qly-gold-light);
+  color: var(--qly-blue);
+}
+
+/* ----- Sections ----- */
+.qly-section { padding: 48px 20px; }
+.qly-eyebrow {
+  color: var(--qly-gold-deep);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/* ----- Hero (blue band) ----- */
+.qly-hero {
+  background: var(--qly-blue);
+  color: #FFFFFF;
+  padding: 56px 20px;
+}
+.qly-hero .qly-eyebrow { color: var(--qly-gold-light); }
+.qly-hero h1, .qly-hero h2 { color: #FFFFFF; }
+.qly-hero p { color: #FFFFFF; }
+
+/* ----- Stats band (blue) ----- */
+.qly-stats-band {
+  background: var(--qly-blue);
+  color: #FFFFFF;
+  padding: 56px 20px;
+}
+.qly-stats-band .qly-grid { gap: 28px; }
+.qly-stats-number {
+  color: var(--qly-gold-light);
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1;
+}
+
+/* ----- Pricing card (blue highlight) ----- */
+.qly-pricing-card {
+  background: var(--qly-blue);
+  color: #FFFFFF;
+  border-radius: 24px 24px 14px 14px;
+  border: none;
+  box-shadow: var(--qly-shadow);
+}
+.qly-pricing-card h3 { color: var(--qly-gold-light); }
+.qly-pricing-card p, .qly-pricing-card li { color: #FFFFFF; }
+.qly-ribbon {
+  background: var(--qly-gold-light);
+  color: var(--qly-blue);
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* ----- Final CTA (solid gold) ----- */
+.qly-cta-gold { background: var(--qly-gold); padding: 56px 20px; }
+.qly-cta-gold h1, .qly-cta-gold h2 { color: #FFFFFF; }
+.qly-cta-gold p { color: #FFFFFF; }
+
+/* ----- Footer (site footer) ----- */
+.qly-footer {
+  background: var(--qly-blue);
+  color: #FFFFFF;
+  padding: 48px 20px 24px;
+}
+.qly-footer h2, .qly-footer h3, .qly-footer h4 { color: var(--qly-gold-light); }
+.qly-footer a { color: #FFFFFF; }
+.qly-footer a:hover { color: var(--qly-gold-light); }
+.qly-footer .qly-footer-cols { display: grid; grid-template-columns: 1fr; gap: 28px; }
+@media (min-width: 769px) {
+  .qly-footer .qly-footer-cols { grid-template-columns: 2fr 1fr 1fr 1.2fr; }
+}
+
+/* ----- Course / curriculum cards ----- */
+.qly-course-card {
+  background: var(--qly-white);
+  border: 1px solid var(--qly-border);
+  box-shadow: var(--qly-shadow);
+  border-radius: 24px 24px 14px 14px;
+  padding: 24px;
+  transition: box-shadow 0.2s ease;
+}
+.qly-course-card:hover { box-shadow: 0 4px 18px rgba(18, 59, 87, 0.10); }
+.qly-course-card h3 { font-size: 22px; margin: 14px 0 8px; }
+.qly-course-card p { font-size: 15px; line-height: 1.55; margin-bottom: 12px; }
+.qly-link { color: var(--qly-gold-deep); font-weight: 600; font-size: 15px; text-decoration: none; }
+.qly-link:hover { text-decoration: underline; }
+
+.qly-curriculum-item {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  background: var(--qly-white);
+  border: 1px solid var(--qly-border);
+  box-shadow: var(--qly-shadow);
+  border-radius: 14px;
+  padding: 18px 20px;
+}
+.qly-curriculum-item .qly-check { color: var(--qly-gold); font-size: 18px; line-height: 1.4; flex: 0 0 auto; }
+.qly-curriculum-item h3 { font-size: 20px; margin: 0 0 4px; }
+.qly-curriculum-item p { font-size: 15px; line-height: 1.55; margin: 0; }
+
+.qly-audience-card {
+  background: var(--qly-white);
+  border: 1px solid var(--qly-border);
+  box-shadow: var(--qly-shadow);
+  border-radius: 14px;
+  padding: 22px;
+  text-align: center;
+}
+.qly-audience-card h3 { font-size: 22px; margin: 12px 0 6px; }
+.qly-audience-card p { font-size: 15px; margin-bottom: 10px; }
+
+.qly-mini-card {
+  background: var(--qly-white);
+  border: 1px solid var(--qly-border);
+  box-shadow: var(--qly-shadow);
+  border-radius: 14px;
+  padding: 20px;
+}
+.qly-mini-card h3 { font-size: 20px; margin: 0 0 6px; }
+.qly-mini-card p { font-size: 15px; line-height: 1.55; margin: 0; }
+
+/* ----- Chips / lists ----- */
+.qly-chip {
+  display: inline-block;
+  background: rgba(212, 160, 23, 0.12);
+  color: var(--qly-gold-deep);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 50px;
+}
+.qly-check-list { list-style: none; padding: 0; margin: 0 0 16px; }
+.qly-check-list li { position: relative; padding-left: 26px; margin-bottom: 8px; }
+.qly-check-list li::before {
+  content: "\2713";
+  position: absolute;
+  left: 0;
+  color: var(--qly-gold);
+  font-weight: 700;
+}
+
+/* ----- Responsive table (pricing comparison) ----- */
+.qly-table-wrap { overflow-x: auto; }
+.qly-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--qly-white);
+  border: 1px solid var(--qly-border);
+  border-radius: 14px;
+  box-shadow: var(--qly-shadow);
+}
+.qly-table th, .qly-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--qly-border);
+  text-align: left;
+  font-size: 15px;
+}
+.qly-table th { background: var(--qly-blue); color: #FFFFFF; font-weight: 600; }
+.qly-table tr:last-child td { border-bottom: none; }
+.qly-table .qly-yes { color: var(--qly-gold-deep); font-weight: 700; }
+
+/* ----- FAQ (accordion-less, simple cards) ----- */
+.qly-faq details { background: var(--qly-white); border: 1px solid var(--qly-border); border-radius: 14px; box-shadow: var(--qly-shadow); padding: 16px 20px; margin-bottom: 12px; }
+.qly-faq summary { font-family: "Cormorant Garamond", serif; font-weight: 600; font-size: 20px; color: var(--qly-blue); cursor: pointer; }
+.qly-faq p { margin: 10px 0 0; }
+
+/* ----- Sticky mobile CTA bar (phones only) ----- */
+.qly-mobile-cta { display: none; }
+@media (max-width: 768px) {
+  .qly-mobile-cta {
+    display: flex;
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    z-index: 999;
+    background: #FFFFFF;
+    border-top: 1px solid var(--qly-border);
+    padding: 10px 16px;
+    gap: 10px;
+  }
+  .qly-mobile-cta a {
+    flex: 1;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  .qly-mobile-cta .qly-cta-trial { background: var(--qly-gold); color: #FFFFFF; }
+  .qly-mobile-cta .qly-cta-wa { background: var(--qly-blue); color: #FFFFFF; }
+  body { padding-bottom: 64px; }
+}
+
+/* ----- Desktop upscale ----- */
+@media (min-width: 769px) {
+  .qly-section { padding: 88px 20px; }
+  .qly-hero { padding: 72px 0; }
+  .qly-stats-band { padding: 72px 0; }
+  .qly-stats-number { font-size: 54px; }
+  .qly-cta-gold { padding: 72px 0; }
+}
