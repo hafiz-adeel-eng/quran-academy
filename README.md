@@ -13,7 +13,7 @@ built with **Elementor (Pro)** on a lightweight Astra base, following the full b
 | `02-HOME/` | Home page: build guide, ready-to-paste copy, custom CSS/JS, homepage SEO + schema |
 | `03-ASSETS/` | Brand placeholder images (SVG), logo placeholder, arabesque divider — swap real licensed photos in before launch |
 | `04-GLOBAL-TEMPLATES/` | Reusable recipes: header, footer, CTA band, testimonial slider, sticky mobile CTA, FAQ block |
-| `05-CHECKLISTS/` | The per-page SEO checklist — apply to **every** page before it's considered done |
+| `05-CHECKLISTS/` | The per-page SEO checklist (now with the 8-point target-keyword placement rule) + `keyword-placement-audit.md` — before/after audit of every page |
 
 ## Build order (incremental review)
 

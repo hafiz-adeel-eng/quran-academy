@@ -1,20 +1,21 @@
-# Teaching Methodology — Build Guide + Copy (`/teaching-methodology/`)
+# Teaching Methodology — Build Guide + Copy (`/online-quran-teaching-methodology/`)
 
 Target keyword: **online quran teaching methodology**. Mobile-first.
 
 ## Setup
 
-- Page **Teaching Methodology**, slug `/teaching-methodology/`, template Elementor Full Width. Uses home global CSS + course CSS classes.
+- Page **Teaching Methodology**, slug `/online-quran-teaching-methodology/`, template Elementor Full Width. Uses home global CSS + course CSS classes.
 
 ## S1. Hero — blue band
 
-- `qly-hero` centered. Eyebrow `METHODOLOGY` (`#F2C94C`). H1 (only one): `Our Teaching Methodology for Online Quran Learning`.
-- Body: `Great results come from a great method. QuranlyHub pairs a structured, proven curriculum with live 1-on-1 teaching — so every student builds correct habits from the very first lesson.`
-- CTA: gold `Book Free Trial` → `/free-trial/`.
+- `qly-hero` centered. Eyebrow `METHODOLOGY` (`#F2C94C`). H1 (only one): `Our Online Quran Teaching Methodology for Real Progress`.
+- Body: `Online Quran teaching methodology at QuranlyHub pairs a structured, proven curriculum with live 1-on-1 teaching — so every student builds correct habits from the very first lesson.`
+- Hero image (first on the page): centered under the buttons, max-width 560px, fixed 560×315, WebP. File `online-quran-teaching-methodology.webp` (placeholder `03-ASSETS/page-heroes/online-quran-teaching-methodology.svg`). Alt: `Online Quran teaching methodology — teacher correcting a student's recitation in a live lesson`.
+- CTA: gold `Book Free Trial` → `/free-quran-classes-online/`.
 
 ## S2. The pillars — white
 
-- `qly-section`. Eyebrow `OUR APPROACH` (`#B8850F`). H2 `Five Pillars of the QuranlyHub Method`.
+- `qly-section`. Eyebrow `OUR APPROACH` (`#B8850F`). H2 `Five Pillars of Our Online Quran Teaching Methodology`.
 - **5 cards** (`qly-card`, icon circles `#D4A017`):
   1. **Structured curriculum** (`fa-sitemap`) — `Every student follows a clear roadmap — Qaida, Nazra, Hifz, Tajweed — with defined levels, milestones and measurable goals.`
   2. **1-on-1 live lessons** (`fa-chalkboard-teacher`) — `No group classes. Every lesson is personal — the teacher hears you, corrects you and adapts to your pace.`
@@ -49,7 +50,7 @@ Target keyword: **online quran teaching methodology**. Mobile-first.
 
 ## S6. Final CTA — gold block
 
-- H2 `Learn With a Method That Works.` Body `Book your free trial and experience the QuranlyHub methodology for yourself.` Button `Book Free Trial` → `/free-trial/`.
+- H2 `Learn With a Method That Works.` Body `Book your free trial and experience the QuranlyHub methodology for yourself.` Button `Book Free Trial` → `/free-quran-classes-online/`.
 
 ## After building
 

@@ -1,10 +1,10 @@
-# Tajweed Course — Build Guide + Copy (`/courses/tajweed/`)
+# Tajweed Course — Build Guide + Copy (`/learn-tajweed-online/`)
 
 Target keyword: **learn tajweed online**. Mobile-first build order.
 
 ## Setup
 
-- Create page **Tajweed Course**, slug `/courses/tajweed/`, template **Elementor Full Width**.
+- Create page **Tajweed Course**, slug `/learn-tajweed-online/`, template **Elementor Full Width**.
 - Add `07-courses-css.css`. Reuse global classes (`qly-hero`, `qly-section`, `qly-card`, `qly-icon-circle`, `qly-cta-gold`, `qly-pricing-card`).
 
 ## S1. Hero — blue band
@@ -12,10 +12,10 @@ Target keyword: **learn tajweed online**. Mobile-first build order.
 - Container `qly-hero` two columns (text 60% / image 40%; image below text on mobile).
 - **Eyebrow:** `TAJWEED · ONLINE QURAN CLASSES` (`#F2C94C`)
 - **H1 (only one):** `Learn Tajweed Online and Recite the Quran Beautifully`
-- **Body:** `Tajweed is the art of reciting the Quran with perfect articulation and rhythm. Our online Tajweed classes teach you Makharij, Sifaat and the rules of recitation — 1-on-1 with certified Quran teachers, from your own home.`
-- **Buttons:** `Book Free Tajweed Trial` → `/free-trial/`; ghost `See All Courses` → `/courses/`.
+- **Body:** `Learn Tajweed online and recite the Quran with perfect articulation and rhythm. Our online Tajweed classes teach you Makharij, Sifaat and the rules of recitation — 1-on-1 with certified Quran teachers, from your own home.`
+- **Buttons:** `Book Free Tajweed Trial` → `/free-quran-classes-online/`; ghost `See All Courses` → `/online-quran-classes/`.
 - **Trust line:** `For students who can already read · Beginners welcome · Female teachers available`
-- **Image:** `03-ASSETS/placeholder-hero.svg` (swap for a real recitation lesson photo). Alt: `Student learning Tajweed rules online with a QuranlyHub teacher — online tajweed classes`.
+- **Image:** upload as `learn-tajweed-online.webp` (placeholder `03-ASSETS/page-heroes/learn-tajweed-online.svg` — swap for a real recitation lesson photo, same base filename). Alt: `Learn Tajweed online — student studying Tajweed rules with a QuranlyHub teacher`.
 
 ## S2. What you'll learn — white
 
@@ -40,7 +40,7 @@ Target keyword: **learn tajweed online**. Mobile-first build order.
 - Eyebrow `WHO IT'S FOR`. H2 `Tajweed Online for Every Student`.
 - 4 audience cards (links to future audience pages):
   - **Adults** → `/online-quran-classes-for-adults/` — `Perfect your recitation around work and family.`
-  - **Beginners** → `/online-quran-classes-for-beginners/` — `Start with correct habits from day one.`
+  - **Beginners** → `/learn-quran-for-beginners/` — `Start with correct habits from day one.`
   - **Kids** → `/online-quran-classes-for-kids/` — `Engaging Tajweed lessons for young reciters.`
   - **Sisters** → `/online-quran-classes-for-sisters/` — `Certified female teachers available.`
 
@@ -55,7 +55,7 @@ Target keyword: **learn tajweed online**. Mobile-first build order.
 ## S6. Pricing snapshot — white
 
 - Eyebrow `PRICING`. H2 `Affordable Tajweed Classes Online`.
-- 3 cards as the Home S4 pattern (`qly-pricing-card` highlight): Free Trial `£0` · Standard `£49/month` (MOST POPULAR) · Family `£69/month`. All → `/pricing/`.
+- 3 cards as the Home S4 pattern (`qly-pricing-card` highlight): Free Trial `£0` · Standard `£49/month` (MOST POPULAR) · Family `£69/month`. All → `/online-quran-classes-cost/`.
 
 ## S7. FAQ — white
 
@@ -70,13 +70,13 @@ Target keyword: **learn tajweed online**. Mobile-first build order.
 
 ## S8. Final CTA — gold block
 
-- H2 `Recite the Quran the Way It Should Be Recited.` Body `Book your free Tajweed trial — we will assess your recitation and start you at the perfect level.` Button `Book Free Trial` → `/free-trial/`.
+- H2 `Recite the Quran the Way It Should Be Recited.` Body `Book your free Tajweed trial — we will assess your recitation and start you at the perfect level.` Button `Book Free Trial` → `/free-quran-classes-online/`.
 
 ## Alt text (Tajweed)
 
 | Image | Alt |
 |---|---|
-| Hero | `Student learning Tajweed rules online with a QuranlyHub teacher — online tajweed classes` |
+| Hero — file `learn-tajweed-online.webp` | `Learn Tajweed online — student studying Tajweed rules with a QuranlyHub teacher` |
 | Decorative | `alt=""` |
 
 ## After building

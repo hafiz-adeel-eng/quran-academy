@@ -1,17 +1,18 @@
-# Free Trial — Build Guide + Copy (`/free-trial/`)
+# Free Trial — Build Guide + Copy (`/free-quran-classes-online/`)
 
 Target keyword: **free quran classes online** (transactional — unique). This is the site's main conversion landing page — build it carefully and test the form.
 
 ## Setup
 
-- Page **Free Trial**, slug `/free-trial/`, template Elementor Full Width.
+- Page **Free Trial**, slug `/free-quran-classes-online/`, template Elementor Full Width.
 
 ## S1. Hero — blue band, conversion-focused
 
 - `qly-hero`, two columns: left = pitch (text), right = **the form card** (form is the star).
 - **Eyebrow:** `FREE TRIAL` (`#F2C94C`)
 - **H1 (only one):** `Book Free Quran Classes Online — Your 30-Minute Trial`
-- **Body:** `Try QuranlyHub free — a 30-minute online Quran class with a certified teacher, a level assessment, and a recommendation for your next step. No card. No commitment.`
+- **Body:** `Free Quran classes online with QuranlyHub: a 30-minute online Quran class with a certified teacher, a level assessment, and a recommendation for your next step. No card. No commitment.`
+- **Hero image (first on the page):** small pitch image in the left column between the body and the checklist, max-width 420px, fixed 420×280, WebP ≤ 30 KB (keep the page fast). File `free-quran-classes-online.webp` (placeholder `03-ASSETS/page-heroes/free-quran-classes-online.svg`). Alt: `Free Quran classes online — student in a 30-minute QuranlyHub trial lesson`.
 - **Checklist** (`fa-check` `#F2C94C`):
   - 1-on-1 with a certified, background-checked teacher
   - Level assessment + course recommendation
@@ -39,7 +40,7 @@ Target keyword: **free quran classes online** (transactional — unique). This i
 
 ## S2. What you get in the trial — white
 
-- `qly-section`. Eyebrow `YOUR FREE TRIAL` (`#B8850F`). H2 `What Happens in Your 30-Minute Trial`.
+- `qly-section`. Eyebrow `YOUR FREE TRIAL` (`#B8850F`). H2 `Free Quran Classes Online: What Happens in Your 30-Minute Trial`.
 - 4 step cards (`qly-card`):
   1. **Meet your teacher** — `A certified, background-checked teacher matched to your level and goals.`
   2. **Level assessment** — `The teacher checks your reading and places you at the right starting point.`
@@ -62,7 +63,7 @@ Target keyword: **free quran classes online** (transactional — unique). This i
 
 ## S5. Final CTA — gold block
 
-- H2 `Still Unsure? WhatsApp Us.` Body `Message us anytime and we'll answer every question before you book.` Buttons: `WhatsApp Us` (`#123B57` pill, white) + ghost `See Full Pricing` → `/pricing/`.
+- H2 `Still Unsure? WhatsApp Us.` Body `Message us anytime and we'll answer every question before you book.` Buttons: `WhatsApp Us` (`#123B57` pill, white) + ghost `See Full Pricing` → `/online-quran-classes-cost/`.
 
 ## Alt text (Free Trial)
 

@@ -18,7 +18,7 @@ Built once in Theme Builder, reused on every page.
 - **Container:** full width, background `#FFFFFF`, bottom border `1px solid rgba(18,59,87,.14)`, height 70px, **Sticky → Top** (motion effects).
 - **Left:** Logo — use the provided logo file (`03-ASSETS/logo-placeholder.svg` until the real file arrives), height 44px, alt `QuranlyHub — Learn Quran. Live Guidance.`.
 - **Center (desktop):** Nav Menu — Home, About, Courses, Tutors, Pricing, Blog, Contact. Hover color `#B8850F`. Font Inter 600 15px.
-- **Right:** WhatsApp icon button (circle, `#D4A017`, white glyph) → `https://wa.me/<number>` + **Book Free Trial** button (primary gold pill) → `/free-trial/`.
+- **Right:** WhatsApp icon button (circle, `#D4A017`, white glyph) → `https://wa.me/<number>` + **Book Free Trial** button (primary gold pill) → `/free-quran-classes-online/`.
 - **Mobile:** hamburger (Elementor default), full-screen overlay menu; **sticky bottom CTA bar** (see `.qly-mobile-cta` in the CSS) shows on phones only — *Book Free Trial* + WhatsApp.
 
 ## S1. Hero — blue band
@@ -27,9 +27,9 @@ Built once in Theme Builder, reused on every page.
 - **Eyebrow:** "ONLINE QURAN ACADEMY · LEARN QURAN ONLINE" — `#F2C94C`, Inter 600, uppercase, letter-spacing 0.14em, 12px.
 - **H1 (the page's only H1):** "Your Online Quran Academy for a Lifetime of Guidance" — Cormorant 600, white, desktop 54 / mobile 32. *(Target keyword present and near the start — SEO ✓)*
 - **Subheadline:** `02-home-copy.md → Hero`. Inter 400, white, 17px, max-width 560px.
-- **CTA row:** Primary button "Book Free Trial — Start Today" (gold pill) → `/free-trial/`; Secondary ghost (outline white) "Explore Courses" → `/courses/`.
+- **CTA row:** Primary button "Book Free Trial — Start Today" (gold pill) → `/free-quran-classes-online/`; Secondary ghost (outline white) "Explore Courses" → `/online-quran-classes/`.
 - **Trust badges row** (below CTAs, 3 inline items): `🌍 60+ Countries` · `🎓 5,000+ Students` · `★ 4.9/5 Parent Rating` — keep as small white text with `#F2C94C` highlights. No emojis in final design — use Elementor icons (globe, cap, star).
-- **Right column:** Hero image — `03-ASSETS/placeholder-hero.svg` until a real photo replaces it. Alt: "Muslim child in an online Quran class with a QuranlyHub teacher". Mobile: image below text, full width, no overflow.
+- **Right column:** Hero image — upload as `online-quran-academy.webp` (placeholder: `03-ASSETS/page-heroes/online-quran-academy.svg` until a real photo replaces it — keep the same base filename). Alt: "Online Quran academy — child learning Quran online with a QuranlyHub teacher". Mobile: image below text, full width, no overflow.
 - *Mobile check:* single column, H1 32px, buttons full-width-ish (44px min height), no horizontal scroll.
 
 ## S2. Why QuranlyHub — white, 6 cards
@@ -55,15 +55,15 @@ Built once in Theme Builder, reused on every page.
   Standard card uses the blue-band treatment (`qly-pricing-card`); others are white `qly-card`.
   Price: gold (`#B8850F` on white / `#F2C94C` on blue), Cormorant 40.
   Feature list: check icons (Elementor `fa-check`), no bullets.
-  Each card: gold CTA button → `/pricing/`.
+  Each card: gold CTA button → `/online-quran-classes-cost/`.
 - Copy: `02-home-copy.md → Pricing`.
-- *Below the grid:* ghost link "See full pricing & payment options" → `/pricing/`.
+- *Below the grid:* ghost link "See full pricing & payment options" → `/online-quran-classes-cost/`.
 
 ## S5. Course category cards — white
 
 - **Container** `qly-section` white. Eyebrow "COURSES". H2 "Explore Our Online Courses".
 - **3 category cards** (`qly-card` major radius): Quran & Tajweed · Arabic Language · Islamic Studies.
-  Each: 3–4 course chips (links to future course pages), icon circle, "View all X courses →" gold link → `/courses/`.
+  Each: 3–4 course chips (links to future course pages), icon circle, "View all X courses →" gold link → `/online-quran-classes/`.
 - Copy + chip links: `02-home-copy.md → Course categories`. These are the internal-link rows to the Course hub.
 
 ## S6. Stats counter — blue band
@@ -92,7 +92,7 @@ Built once in Theme Builder, reused on every page.
 
 - **Container** `qly-section` white. Eyebrow "FROM THE BLOG". H2 "Learn More About Quran Learning".
 - **Pro widget: Posts** (category Blog, 3 posts, card style `qly-card`). Title font Cormorant 22 `#123B57`, meta Inter 13 `#B8850F`. Links to individual posts.
-- These 3 posts are the first blog content (topics in `02-home-copy.md → Blog`); create them in the **next increment** (Blog). Until then, link them to `/blog/`.
+- These 3 posts are the first blog content (topics in `02-home-copy.md → Blog`); create them in the **next increment** (Blog). Until then, link them to `/quran-learning-blog/`.
 - This section is the site's SEO freshness signal — keep it publishing.
 
 ## S10. Final CTA — solid gold block
@@ -100,7 +100,7 @@ Built once in Theme Builder, reused on every page.
 - **Container** `qly-cta-gold`: background `#D4A017`, padding 72/72. Rounded arch top corners via CSS (`border-radius: 24px 24px 0 0` optional — or keep it a full-bleed band).
 - **H2:** white Cormorant 36 "Begin Your Quran Journey Today".
 - **Body:** white Inter 17 "Book a free trial class and meet your teacher — no card, no commitment."
-- **Button:** deep-blue pill (`#123B57` bg, white text) "Book Free Trial" → `/free-trial/`.
+- **Button:** deep-blue pill (`#123B57` bg, white text) "Book Free Trial" → `/free-quran-classes-online/`.
 - Optional small arabesque divider strip above this band (use `03-ASSETS/arabesque-divider.svg`), nothing busier.
 
 ## S11. Footer (Theme Builder — Pro, blue)

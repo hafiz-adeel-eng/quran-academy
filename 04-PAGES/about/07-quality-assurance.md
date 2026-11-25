@@ -1,20 +1,21 @@
-# Quality Assurance — Build Guide + Copy (`/quality-assurance/`)
+# Quality Assurance — Build Guide + Copy (`/certified-quran-teachers-online/`)
 
 Target keyword: **certified quran teachers online**. Mobile-first.
 
 ## Setup
 
-- Page **Quality Assurance**, slug `/quality-assurance/`, template Elementor Full Width.
+- Page **Quality Assurance**, slug `/certified-quran-teachers-online/`, template Elementor Full Width.
 
 ## S1. Hero — blue band
 
 - `qly-hero` centered. Eyebrow `QUALITY ASSURANCE` (`#F2C94C`). H1 (only one): `Quality Assurance: Meet the Best Certified Quran Teachers Online`.
-- Body: `Your teacher is the heart of your Quran journey. That's why every QuranlyHub teacher is Ijazah-certified, background-checked and continuously monitored — so you always learn from someone you can trust.`
+- Body: `Certified Quran teachers online are the heart of your Quran journey. That's why every QuranlyHub teacher is Ijazah-certified, background-checked and continuously monitored — so you always learn from someone you can trust.`
+- Hero image (first on the page): centered under the buttons, max-width 560px, fixed 560×315, WebP. File `certified-quran-teachers-online.webp` (placeholder `03-ASSETS/page-heroes/certified-quran-teachers-online.svg`). Alt: `Certified Quran teachers online — an Ijazah-certified QuranlyHub teacher in a live class`.
 - CTA: gold `Meet Our Teachers` → `/tutors/`.
 
 ## S2. How we vet teachers — white
 
-- `qly-section`. Eyebrow `TEACHER VETTING` (`#B8850F`). H2 `Every Teacher Passes 4 Checks`.
+- `qly-section`. Eyebrow `TEACHER VETTING` (`#B8850F`). H2 `Certified Quran Teachers Online: Every Teacher Passes 4 Checks`.
 - **4 step cards** (`qly-card`, numbered circles `#D4A017`):
   1. **Qualification check** — `We verify every teacher's Ijazah or recognised Quran certification.`
   2. **Background check** — `Identity and references are verified before anyone teaches.`
@@ -32,7 +33,7 @@ Target keyword: **certified quran teachers online**. Mobile-first.
 
 - `qly-card qly-card-arch` feature block. H2 `Our Teacher Guarantee`.
 - Body: `If you're not completely happy with your teacher after your first two classes, we will replace them free — no questions asked. Your satisfaction is part of our quality standard.`
-- Button: `Book a Trial and Meet Your Teacher` → `/free-trial/`.
+- Button: `Book a Trial and Meet Your Teacher` → `/free-quran-classes-online/`.
 
 ## S5. FAQ — white
 
@@ -45,7 +46,7 @@ Target keyword: **certified quran teachers online**. Mobile-first.
 
 ## S6. Final CTA — gold block
 
-- H2 `Learn From Someone You Can Trust.` Body `Meet your certified teacher in a free trial today.` Button `Book Free Trial` → `/free-trial/`.
+- H2 `Learn From Someone You Can Trust.` Body `Meet your certified teacher in a free trial today.` Button `Book Free Trial` → `/free-quran-classes-online/`.
 
 ## After building
 

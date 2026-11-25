@@ -1,29 +1,29 @@
-# Contact Us — SEO (`/contact/`)
+# Contact Us — SEO (`/contact-quranlyhub/`)
 
 ## 1. Target keyword
 **`contact quranlyhub`** (brand/transactional — unique).
 
 ## 2. Title tag
-`Contact Us | QuranlyHub` *(22 chars)*
+`Contact QuranlyHub — WhatsApp, Email & Support` *(46 chars)*
 
 ## 3. Meta description (≤ 155, CTA)
 `Contact QuranlyHub — WhatsApp, email or message us any time, 7 days a week. We reply within a few hours. Or book your free trial in 30 seconds.` *(144 chars)*
 
 ## 4. URL / canonical
-`https://quranlyhub.com/contact/` — self-canonical.
+`https://quranlyhub.com/contact-quranlyhub/` — self-canonical.
 
 ## 5. On-page structure
 - **One H1:** "Contact QuranlyHub — We're Here to Help"
-- H2 order: Reach Us Any Way You Like → Send Us a Message → Quick Answers Before You Ask → Prefer to Just Start Learning?
-- Keyword in H1 + first 100 words. ✓
+- H2 order: Contact QuranlyHub Any Way You Like → Send Us a Message → Quick Answers Before You Ask → Prefer to Just Start Learning?
+- Keyword in title, H1, an H2, and at the **start** of the hero body ("Contact QuranlyHub with any question…"). ✓
 
 ## 6. Internal links
 | From | To | Anchor |
 |---|---|---|
-| FAQ 4 | `/free-trial/` | free trial page |
-| Final CTA | `/free-trial/` | Book Free Trial |
+| FAQ 4 | `/free-quran-classes-online/` | free trial page |
+| Final CTA | `/free-quran-classes-online/` | Book Free Trial |
 | WhatsApp card | external `https://wa.me/447700900123` | WhatsApp |
-| Footer (site-wide) | `/free-trial/`, `/courses/` | Free Trial / Courses |
+| Footer (site-wide) | `/free-quran-classes-online/`, `/online-quran-classes/` | Free Trial / Courses |
 
 ## 7. Schema
 `@graph`: Organization (its `contactPoint` already covers this) + BreadcrumbList (Home → Contact) + FAQPage.
@@ -37,7 +37,7 @@
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://quranlyhub.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Contact Us", "item": "https://quranlyhub.com/contact/" }
+        { "@type": "ListItem", "position": 2, "name": "Contact Us", "item": "https://quranlyhub.com/contact-quranlyhub/" }
       ]
     },
     {

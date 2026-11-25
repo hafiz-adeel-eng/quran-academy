@@ -1,4 +1,4 @@
-# Terms & Conditions — Build Guide + Copy (`/terms-and-conditions/`)
+# Terms & Conditions — Build Guide + Copy (`/quranlyhub-terms-and-conditions/`)
 
 Target keyword: **quranlyhub terms and conditions**. Mobile-first, but this page is a simple readable document — no bands, minimal design.
 
@@ -6,15 +6,16 @@ Target keyword: **quranlyhub terms and conditions**. Mobile-first, but this page
 
 ## Setup
 
-- Page **Terms & Conditions**, slug `/terms-and-conditions/`, template Elementor Full Width.
+- Page **Terms & Conditions**, slug `/quranlyhub-terms-and-conditions/`, template Elementor Full Width.
 
 ## Layout (single column, white)
 
-- `qly-section` with a single content column, max-width 760px. H1 (only one): `Terms & Conditions`.
-- Intro line: `These terms apply to your use of quranlyhub.com and our online Quran classes. By booking a class you agree to them. Last updated: [date].`
+- `qly-section` with a single content column, max-width 760px. H1 (only one): `QuranlyHub Terms and Conditions`.
+- Intro line: `QuranlyHub terms and conditions apply to your use of quranlyhub.com and our online Quran classes. By booking a class you agree to them. Last updated: [date].`
+- Images: none (legal document — no image, so the filename/alt rule does not apply).
 - H2 sections (each a short H2 + paragraphs; no cards needed):
 
-1. **1. The Service** — `QuranlyHub provides online Quran tuition on a 1-on-1 basis through certified teachers. Lesson content, timings and course plans are agreed with the student or parent.`
+1. **1. QuranlyHub Terms and Conditions: The Service** — `QuranlyHub provides online Quran tuition on a 1-on-1 basis through certified teachers. Lesson content, timings and course plans are agreed with the student or parent.`
 2. **2. Free Trial** — `The free trial is a single 30-minute class available to new students. No payment details are required to book it.`
 3. **3. Bookings & Schedules** — `Lessons are scheduled 7 days a week. Rescheduling is free with notice before the class. Lessons missed without notice may be forfeited.`
 4. **4. Fees & Payments** — `Plans are billed monthly and paid in advance by the chosen payment method. Prices are as shown on the Pricing page and may change with 30 days' notice.`
@@ -25,7 +26,7 @@ Target keyword: **quranlyhub terms and conditions**. Mobile-first, but this page
 9. **9. Privacy & Data** — `We process personal data in line with our Privacy Policy and applicable law (including UK GDPR). See the Privacy Policy for details.`
 10. **10. Contact** — `Questions about these terms? Email salam@quranlyhub.com or WhatsApp +44 7700 900123.`
 
-- Footer CTA (small): gold button `Book Free Trial` → `/free-trial/`.
+- Footer CTA (small): gold button `Book Free Trial` → `/free-quran-classes-online/`.
 
 ## After building
 

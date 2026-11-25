@@ -1,29 +1,30 @@
-# Terms & Conditions — SEO (`/terms-and-conditions/`)
+# Terms & Conditions — SEO (`/quranlyhub-terms-and-conditions/`)
 
 ## 1. Target keyword
 **`quranlyhub terms and conditions`** (brand/transactional, unique).
 
 ## 2. Title tag
-`Terms & Conditions | QuranlyHub` *(29 chars)*
+`QuranlyHub Terms and Conditions` *(31 chars)*
 
 ## 3. Meta description (≤ 155, CTA)
-`The terms and conditions for using QuranlyHub's online Quran classes and website — trials, bookings, payments, cancellations and liability. Contact us for questions.` *(148 chars)*
+`QuranlyHub terms and conditions for our online Quran classes and website — trials, bookings, payments, cancellations and liability. Contact us.`
+*(143 chars)*
 
 ## 4. URL / canonical
-`https://quranlyhub.com/terms-and-conditions/` — self-canonical.
+`https://quranlyhub.com/quranlyhub-terms-and-conditions/` — self-canonical.
 
 ## 5. On-page structure
-- **One H1:** "Terms & Conditions"
-- H2 sections numbered 1–10 (legal headings), no skipping. No FAQ block on this page.
-- First 100 words: "online Quran classes", "quranlyhub.com", "terms" present. ✓
+- **One H1:** "QuranlyHub Terms and Conditions"
+- H2 sections numbered 1–10 (legal headings), no skipping; **H2 #1 carries the keyword**: "1. QuranlyHub Terms and Conditions: The Service". No FAQ block on this page.
+- Intro paragraph **starts with the keyword**: "QuranlyHub terms and conditions apply to your use of quranlyhub.com…" ✓
 
 ## 6. Internal links
 | From | To | Anchor |
 |---|---|---|
-| Section 4 | `/pricing/` | Pricing page |
-| Section 2 | `/free-trial/` | free trial |
-| Footer CTA | `/free-trial/` | Book Free Trial |
-| Footer | `/privacy-policy/` | Privacy Policy *(create a short privacy page before launch)* |
+| Section 4 | `/online-quran-classes-cost/` | Pricing page |
+| Section 2 | `/free-quran-classes-online/` | free trial |
+| Footer CTA | `/free-quran-classes-online/` | Book Free Trial |
+| Footer | `/quranlyhub-privacy-policy/` | Privacy Policy *(create a short privacy page before launch)* |
 
 ## 7. Schema
 `@graph`: Organization + BreadcrumbList (Home → About → Terms & Conditions). No FAQPage.
@@ -37,8 +38,8 @@
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://quranlyhub.com/" },
-        { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://quranlyhub.com/about/" },
-        { "@type": "ListItem", "position": 3, "name": "Terms & Conditions", "item": "https://quranlyhub.com/terms-and-conditions/" }
+        { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://quranlyhub.com/about-quranlyhub/" },
+        { "@type": "ListItem", "position": 3, "name": "Terms & Conditions", "item": "https://quranlyhub.com/quranlyhub-terms-and-conditions/" }
       ]
     }
   ]

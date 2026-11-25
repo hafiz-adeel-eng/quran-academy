@@ -1,29 +1,30 @@
-# Quality Assurance — SEO (`/quality-assurance/`)
+# Quality Assurance — SEO (`/certified-quran-teachers-online/`)
 
 ## 1. Target keyword
 **`certified quran teachers online`** (unique; no course page uses it — Tajweed uses "learn tajweed online", etc.).
 
 ## 2. Title tag
-`Quality Assurance — Certified Quran Teachers Online | QuranlyHub` *(58 chars)*
+`Certified Quran Teachers Online | QuranlyHub`
+*(44 chars)*
 
 ## 3. Meta description (≤ 155, CTA)
-`Every QuranlyHub teacher is Ijazah-certified, background-checked and monitored with monthly quality reviews. See how we guarantee quality classes.` *(142 chars)*
+`Meet certified Quran teachers online — every QuranlyHub teacher is Ijazah-certified, background-checked and monitored monthly. Book your free trial.` *(148 chars)*
 
 ## 4. URL / canonical
-`https://quranlyhub.com/quality-assurance/` — self-canonical.
+`https://quranlyhub.com/certified-quran-teachers-online/` — self-canonical.
 
 ## 5. On-page structure
 - **One H1:** "Quality Assurance: Meet the Best Certified Quran Teachers Online"
-- H2 order: Every Teacher Passes 4 Checks → Quality Doesn't Stop After Hiring → Our Teacher Guarantee → Questions About Our Teachers → Learn From Someone You Can Trust.
-- "certified Quran teachers"/"certified quran teachers online" in H1 and hero body. ✓
+- H2 order: Certified Quran Teachers Online: Every Teacher Passes 4 Checks → Quality Doesn't Stop After Hiring → Our Teacher Guarantee → Questions About Our Teachers → Learn From Someone You Can Trust.
+- Keyword in title, H1, an H2, and at the **start** of the hero body ("Certified Quran teachers online are the heart of your Quran journey…"). ✓
 
 ## 6. Internal links
 | From | To | Anchor |
 |---|---|---|
 | Hero CTA | `/tutors/` | Meet Our Teachers |
-| Guarantee button | `/free-trial/` | Book a Trial |
-| FAQ 2 | `/courses/tajweed/` | Tajweed (Ijazah context) |
-| Footer | `/about/`, `/teaching-methodology/` | About / Methodology |
+| Guarantee button | `/free-quran-classes-online/` | Book a Trial |
+| FAQ 2 | `/learn-tajweed-online/` | Tajweed (Ijazah context) |
+| Footer | `/about-quranlyhub/`, `/online-quran-teaching-methodology/` | About / Methodology |
 
 ## 7. Schema
 `@graph`: Organization + BreadcrumbList (Home → About → Quality Assurance) + FAQPage.
@@ -37,8 +38,8 @@
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://quranlyhub.com/" },
-        { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://quranlyhub.com/about/" },
-        { "@type": "ListItem", "position": 3, "name": "Quality Assurance", "item": "https://quranlyhub.com/quality-assurance/" }
+        { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://quranlyhub.com/about-quranlyhub/" },
+        { "@type": "ListItem", "position": 3, "name": "Quality Assurance", "item": "https://quranlyhub.com/certified-quran-teachers-online/" }
       ]
     },
     {

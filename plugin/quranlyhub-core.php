@@ -56,10 +56,10 @@ function qly_setup_menu() {
 
 	$items = array(
 		array( 'Home', home_url( '/' ) ),
-		array( 'Courses', home_url( '/courses/' ) ),
-		array( 'Pricing', home_url( '/pricing/' ) ),
-		array( 'Free Trial', home_url( '/free-trial/' ) ),
-		array( 'Contact', home_url( '/contact/' ) ),
+		array( 'Courses', home_url( '/online-quran-classes/' ) ),
+		array( 'Pricing', home_url( '/online-quran-classes-cost/' ) ),
+		array( 'Free Trial', home_url( '/free-quran-classes-online/' ) ),
+		array( 'Contact', home_url( '/contact-quranlyhub/' ) ),
 	);
 
 	foreach ( $items as $item ) {

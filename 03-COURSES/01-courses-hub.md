@@ -1,10 +1,10 @@
-# Courses Hub — Build Guide + Copy (`/courses/`)
+# Courses Hub — Build Guide + Copy (`/online-quran-classes/`)
 
 Target keyword: **online quran classes**. Build order below is mobile-first (check each section on a phone before desktop).
 
 ## Setup
 
-- Create page **Courses**, slug `/courses/`, template **Elementor Full Width**.
+- Create page **Courses**, slug `/online-quran-classes/`, template **Elementor Full Width**.
 - Add `07-courses-css.css` alongside the home CSS (Astra Customizer → Additional CSS).
 
 ## S1. Hero — blue band
@@ -12,8 +12,9 @@ Target keyword: **online quran classes**. Build order below is mobile-first (che
 - Container `qly-hero`: `#123B57`, padding 64/64 (mobile 48/48). Centered text, max-width 720px.
 - **Eyebrow:** `COURSES · ONLINE QURAN CLASSES` (`#F2C94C`)
 - **H1 (only one):** `Online Quran Classes for Every Age and Level`
-- **Body:** `From your first Noorani Qaida lesson to full Hifz and Tafseer — QuranlyHub offers 1-on-1 online Quran classes with certified teachers, for kids, adults, beginners and sisters.`
-- **Buttons:** Primary gold `Book Free Trial` → `/free-trial/`; Secondary ghost `Compare Plans` → `/pricing/`.
+- **Body:** `Online Quran classes for every age and level — from your first Noorani Qaida lesson to full Hifz and Tafseer, QuranlyHub offers 1-on-1 lessons with certified teachers, for kids, adults, beginners and sisters.`
+- **Buttons:** Primary gold `Book Free Trial` → `/free-quran-classes-online/`; Secondary ghost `Compare Plans` → `/online-quran-classes-cost/`.
+- **Hero image (first image on the page):** centered under the buttons, max-width 560px, fixed 560×315, WebP. File `online-quran-classes.webp` (placeholder `03-ASSETS/page-heroes/online-quran-classes.svg`). Alt below.
 
 ## S2. Course categories — white
 
@@ -21,21 +22,21 @@ Target keyword: **online quran classes**. Build order below is mobile-first (che
 - **3 category groups**, each with course cards (`qly-card qly-card-arch`):
 
 ### Quran & Tajweed
-1. **Noorani Qaida Course** — `Start reading the Quran from zero. Best for complete beginners.` → `/courses/noorani-qaida/`
-2. **Nazra (Quran Reading) Course** — `Read the Quran fluently with correct pronunciation.` → `/courses/nazra/`
-3. **Hifz (Memorization) Course** — `Memorise the Quran with a structured, tested plan.` → `/courses/hifz/`
-4. **Tajweed Course** — `Recite with perfect Makharij and Tajweed rules.` → `/courses/tajweed/`
+1. **Noorani Qaida Course** — `Start reading the Quran from zero. Best for complete beginners.` → `/noorani-qaida-online/`
+2. **Nazra (Quran Reading) Course** — `Read the Quran fluently with correct pronunciation.` → `/nazra-course-online/`
+3. **Hifz (Memorization) Course** — `Memorise the Quran with a structured, tested plan.` → `/online-hifz-classes/`
+4. **Tajweed Course** — `Recite with perfect Makharij and Tajweed rules.` → `/learn-tajweed-online/`
 
 ### Arabic Language
-5. **Quran Translation Course** — `Understand what you recite, word by word.` → `/courses/quran-translation/`
-6. **Arabic Language Course** — `Build Arabic reading and grammar foundations for the Quran.` → `/courses/arabic-language/`
+5. **Quran Translation Course** — `Understand what you recite, word by word.` → `/learn-quran-translation-online/`
+6. **Arabic Language Course** — `Build Arabic reading and grammar foundations for the Quran.` → `/learn-arabic-online-for-quran/`
 
 ### Islamic Studies
-7. **Tafseer Course** — `Study the meaning and context of the Quran.` → `/courses/tafseer/`
-8. **Basic Islamic Studies Course** — `Duas, Salah, Seerah and everyday Islamic knowledge.` → `/courses/basic-islamic-studies/`
+7. **Tafseer Course** — `Study the meaning and context of the Quran.` → `/quran-tafseer-online/`
+8. **Basic Islamic Studies Course** — `Duas, Salah, Seerah and everyday Islamic knowledge.` → `/online-islamic-studies-for-kids/`
 
 Each card: icon circle (see design system), H3 (Cormorant 22 `#123B57`), one-line description, `Learn more →` gold link.
-*Cards 1 and 4 (this increment's live pages) link to the real pages; the other six link to `/courses/<slug>/` and are built next.*
+*Cards 1 and 4 (this increment's live pages) link to the real pages; the other six link to `/online-quran-classes/<slug>/` and are built next.*
 
 ## S3. Who are you learning for? — white
 
@@ -43,7 +44,7 @@ Each card: icon circle (see design system), H3 (Cormorant 22 `#123B57`), one-lin
 - **4 audience cards** (`qly-card`):
   - **Kids** — `Patient teachers, short engaging lessons and progress reports for parents.` → `/online-quran-classes-for-kids/`
   - **Adults** — `Flexible timings that fit work and family life.` → `/online-quran-classes-for-adults/`
-  - **Beginners** — `Start from the alphabet with zero prior knowledge.` → `/online-quran-classes-for-beginners/`
+  - **Beginners** — `Start from the alphabet with zero prior knowledge.` → `/learn-quran-for-beginners/`
   - **Sisters** — `Learn from certified female Quran teachers, on your schedule.` → `/online-quran-classes-for-sisters/`
 - Note: these landing pages are built in a later increment — the cards are the internal links to them.
 
@@ -64,7 +65,7 @@ Each card: icon circle (see design system), H3 (Cormorant 22 `#123B57`), one-lin
   - **Free Trial** `£0` — `1 free class` → `Start Free Trial`
   - **Standard** `£49 /month` — `5 classes per week` — MOST POPULAR
   - **Family** `£69 /month` — `5 classes per week · up to 4 children`
-- All → `/pricing/`. Ghost link `See full pricing →`.
+- All → `/online-quran-classes-cost/`. Ghost link `See full pricing →`.
 
 ## S6. FAQ — white
 
@@ -79,13 +80,13 @@ Each card: icon circle (see design system), H3 (Cormorant 22 `#123B57`), one-lin
 
 ## S7. Final CTA — gold block
 
-- `qly-cta-gold`: H2 `Not Sure Where to Start? Book a Free Trial.` Body `We will assess your level and recommend the right online Quran class — no card, no commitment.` Button deep-blue pill `Book Free Trial` → `/free-trial/`.
+- `qly-cta-gold`: H2 `Not Sure Where to Start? Book a Free Trial.` Body `We will assess your level and recommend the right online Quran class — no card, no commitment.` Button deep-blue pill `Book Free Trial` → `/free-quran-classes-online/`.
 
 ## Alt text (hub)
 
 | Image | Alt |
 |---|---|
-| Hero | `Online Quran classes at QuranlyHub — 1-on-1 lessons with certified teachers` |
+| Hero — file `online-quran-classes.webp` | `Online Quran classes at QuranlyHub — 1-on-1 lessons with certified teachers` |
 | Decorative | `alt=""` |
 
 ## After building

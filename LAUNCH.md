@@ -98,6 +98,7 @@ Remaining pages to build after launch (same templates): Nazra, Hifz, Quran Trans
 
 - [ ] XML sitemap submitted to Google Search Console
 - [ ] No duplicate titles/metas (Rank Math report) — currently all 14 unique
+- [ ] Every page passes the 8-point keyword placement check (URL, title, meta, H1, H2, first paragraph, first image filename + alt) → `05-CHECKLISTS/keyword-placement-audit.md`; slugs changed there need 301 redirects if the old URLs were ever live
 - [ ] SSL on every page, no mixed content
 - [ ] 404 page styled on-brand
 - [ ] PageSpeed Insights: Home, one course page, one blog post (mobile target: green LCP/CLS/INP)

@@ -1,20 +1,21 @@
-# How It Works — Build Guide + Copy (`/how-it-works/`)
+# How It Works — Build Guide + Copy (`/how-online-quran-classes-work/`)
 
 Target keyword: **how online quran classes work**. Mobile-first.
 
 ## Setup
 
-- Page **How It Works**, slug `/how-it-works/`, template Elementor Full Width. Uses home global CSS.
+- Page **How It Works**, slug `/how-online-quran-classes-work/`, template Elementor Full Width. Uses home global CSS.
 
 ## S1. Hero — blue band
 
 - `qly-hero` centered. Eyebrow `HOW IT WORKS` (`#F2C94C`). H1 (only one): `How Online Quran Classes Work at QuranlyHub`.
-- Body: `From free trial to your first lesson — here is exactly how online Quran classes work at QuranlyHub, in four simple steps. No forms hidden in fine print, no surprises.`
-- CTA: gold `Start With a Free Trial` → `/free-trial/`.
+- Body: `How online Quran classes work at QuranlyHub is simple: from free trial to your first lesson, just four steps — no forms hidden in fine print, no surprises.`
+- Hero image (first on the page): centered under the buttons, max-width 560px, fixed 560×315, WebP. File `how-online-quran-classes-work.webp` (placeholder `03-ASSETS/page-heroes/how-online-quran-classes-work.svg`). Alt: `How online Quran classes work — student in a live 1-on-1 lesson with a QuranlyHub teacher`.
+- CTA: gold `Start With a Free Trial` → `/free-quran-classes-online/`.
 
 ## S2. The 4 steps — white
 
-- `qly-section`. Eyebrow `YOUR JOURNEY`. H2 `Four Simple Steps to Start Learning`.
+- `qly-section`. Eyebrow `YOUR JOURNEY`. H2 `How Online Quran Classes Work: Four Simple Steps`.
 - **4 step cards** (vertical timeline on mobile, 4 columns desktop; `qly-card`, number circles `#D4A017`):
 
 1. **Book your free trial** — `Fill in the 30-second form — no card, no commitment. Pick a course and a time that suits you.`
@@ -49,7 +50,7 @@ Target keyword: **how online quran classes work**. Mobile-first.
 
 ## S6. Final CTA — gold block
 
-- H2 `Ready When You Are.` Body `Book your free trial and see how online Quran classes work for you — 30 seconds, no card.` Button `Book Free Trial` → `/free-trial/`.
+- H2 `Ready When You Are.` Body `Book your free trial and see how online Quran classes work for you — 30 seconds, no card.` Button `Book Free Trial` → `/free-quran-classes-online/`.
 
 ## After building
 

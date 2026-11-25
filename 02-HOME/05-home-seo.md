@@ -25,17 +25,17 @@ Natural variants (used once or twice, not stuffed): *learn quran online, online 
 
 - **Exactly one H1:** "Your Online Quran Academy for a Lifetime of Guidance" — keyword present in the H1.
 - **H2 order:** Why Families Choose Our Online Quran Academy → 3 Simple Steps to Start → Simple, Affordable Plans → Explore Our Online Courses → (Stats, no heading) → What Our Students & Parents Say → Learn From Hand-Picked Teachers → Learn More About Quran Learning → Begin Your Quran Journey Today. No skipped levels (H1 → H2 → H3 on cards).
-- Keyword + variants appear naturally in the **first 100 words** (hero subheadline): "online Quran academy trusted by families in 60+ countries. Learn Quran online with certified, hand-picked teachers…"
+- Keyword + variants appear naturally in the **first 100 words** (hero subheadline, **starts with the keyword**): "Online Quran academy for the whole family — QuranlyHub is trusted by families in 60+ countries. Learn Quran online with certified, hand-picked teachers…"
 
 ## 6. Internal links (minimum 2–3, Home has more)
 
 | From | To | Anchor |
 |---|---|---|
-| Hero CTA | `/free-trial/` | Book Free Trial — Start Today |
-| Hero CTA | `/courses/` | Explore Courses |
+| Hero CTA | `/free-quran-classes-online/` | Book Free Trial — Start Today |
+| Hero CTA | `/online-quran-classes/` | Explore Courses |
 | Why Us card 1 | `/quran-classes-in-uk/` (+ USA/CA/AU pages when built) | UK, USA, Canada, Australia |
-| Pricing section | `/pricing/` | See full pricing & payment options |
-| Course categories | `/courses/` | View all Quran courses / Arabic / Islamic courses |
+| Pricing section | `/online-quran-classes-cost/` | See full pricing & payment options |
+| Course categories | `/online-quran-classes/` | View all Quran courses / Arabic / Islamic courses |
 | Tutors | `/tutors/` | View profile |
 | Blog | `/blog/…` (3 posts) | article titles |
 | Footer | all hubs | site-wide |

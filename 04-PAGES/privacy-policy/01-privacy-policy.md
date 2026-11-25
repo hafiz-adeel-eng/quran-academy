@@ -1,17 +1,18 @@
-# Privacy Policy — Build Guide + Copy (`/privacy-policy/`)
+# Privacy Policy — Build Guide + Copy (`/quranlyhub-privacy-policy/`)
 
 Target keyword: **quranlyhub privacy policy** (unique). Draft copy — have a solicitor/GDPR advisor review before launch.
 
 ## Setup
 
-- Page **Privacy Policy**, slug `/privacy-policy/`, template Elementor Full Width. Single content column (like Terms), white, max-width 760px.
+- Page **Privacy Policy**, slug `/quranlyhub-privacy-policy/`, template Elementor Full Width. Single content column (like Terms), white, max-width 760px.
 
 ## Layout
 
-- H1 (only one): `Privacy Policy`.
-- Intro: `This policy explains what data QuranlyHub collects when you use quranlyhub.com or our online Quran classes, how we use it, and your rights. Last updated: [date].`
+- H1 (only one): `QuranlyHub Privacy Policy`.
+- Intro: `QuranlyHub privacy policy: what data QuranlyHub collects when you use quranlyhub.com or our online Quran classes, how we use it, and your rights. Last updated: [date].`
+- Images: none (legal document — no image, so the filename/alt rule does not apply).
 - H2 sections:
-  1. **1. Who We Are** — `QuranlyHub ("we", "us") operates quranlyhub.com and provides online Quran tuition. We are the data controller for the information you share with us.`
+  1. **1. QuranlyHub Privacy Policy: Who We Are** — `QuranlyHub ("we", "us") operates quranlyhub.com and provides online Quran tuition. We are the data controller for the information you share with us.`
   2. **2. Information We Collect** — `Contact details you give us (name, email, WhatsApp number, country, student age) when you book a trial or contact us, and limited technical data (IP address, browser) collected by our hosting and analytics tools.`
   3. **3. How We Use It** — `To arrange and deliver lessons, confirm bookings by WhatsApp/email, respond to enquiries, and improve our service. We do not sell your data.`
   4. **4. Payment Data** — `Card payments are processed by our payment provider (e.g. Stripe); we never store your card details.`
@@ -23,7 +24,7 @@ Target keyword: **quranlyhub privacy policy** (unique). Draft copy — have a so
   10. **10. Children's Data** — `We only collect a child's age as needed to match a suitable teacher; all account and consent actions sit with a parent or guardian.`
   11. **11. Contact** — `Privacy questions: salam@quranlyhub.com, or WhatsApp +44 7700 900123.`
 
-- Footer CTA (small): gold button `Book Free Trial` → `/free-trial/`.
+- Footer CTA (small): gold button `Book Free Trial` → `/free-quran-classes-online/`.
 
 ## After building
 

@@ -16,6 +16,16 @@ Apply to **every** blog post. The sample posts in `posts/` already follow it —
 - H2/H3 hierarchy, no skips. Keyword + variants in the first 100 words.
 - FAQ block (4–6 questions) with FAQPage schema — targets "People Also Ask".
 
+## 3b. Keyword placement (8 points — every post)
+1. Slug contains the keyword (`/blog/<keyword-slug>/`).
+2. Title contains the keyword (near the start).
+3. Meta description contains the keyword.
+4. H1 contains the keyword.
+5. At least one H2 contains the keyword (posts use H2 → H3, never H1 → H3).
+6. The first paragraph **starts with** the keyword.
+7. Featured image filename = the keyword (`<keyword-slug>.webp`).
+8. Featured image alt text contains the keyword.
+
 ## 4. Internal links (mandatory, 2–3+)
 Course page ↔ blog ↔ hub. Every post links to its related course page + the free trial.
 
@@ -42,7 +52,7 @@ Course page ↔ blog ↔ hub. Every post links to its related course page + the 
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://quranlyhub.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://quranlyhub.com/blog/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://quranlyhub.com/quran-learning-blog/" },
         { "@type": "ListItem", "position": 3, "name": "<post title>", "item": "https://quranlyhub.com/blog/<slug>/" }
       ]
     },

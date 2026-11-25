@@ -1,4 +1,4 @@
-# Teaching Methodology — SEO (`/teaching-methodology/`)
+# Teaching Methodology — SEO (`/online-quran-teaching-methodology/`)
 
 ## 1. Target keyword
 **`online quran teaching methodology`** (unique; long-tail informational).
@@ -7,24 +7,25 @@
 `Our Online Quran Teaching Methodology | QuranlyHub` *(48 chars)*
 
 ## 3. Meta description (≤ 155, CTA)
-`Discover the QuranlyHub teaching methodology — structured curriculum, 1-on-1 live lessons, corrective feedback and measurable progress. Book a free trial.` *(147 chars)*
+`Discover our online Quran teaching methodology — structured curriculum, 1-on-1 lessons, corrective feedback and measurable progress. Book a free trial.`
+*(151 chars)*
 
 ## 4. URL / canonical
-`https://quranlyhub.com/teaching-methodology/` — self-canonical.
+`https://quranlyhub.com/online-quran-teaching-methodology/` — self-canonical.
 
 ## 5. On-page structure
-- **One H1:** "Our Teaching Methodology for Online Quran Learning"
-- H2 order: Five Pillars of the QuranlyHub Method → What Happens Inside a Lesson → Progress You Can See → Questions About Our Method → Learn With a Method That Works.
-- Keyword in H1 and hero body. ✓
+- **One H1:** "Our Online Quran Teaching Methodology for Real Progress"
+- H2 order: Five Pillars of Our Online Quran Teaching Methodology → What Happens Inside a Lesson → Progress You Can See → Questions About Our Method → Learn With a Method That Works.
+- Keyword in H1, an H2, and at the **start** of the hero body ("Online Quran teaching methodology at QuranlyHub pairs…"). ✓
 
 ## 6. Internal links
 | From | To | Anchor |
 |---|---|---|
-| Hero CTA | `/free-trial/` | Book Free Trial |
-| Pillar 1 | `/courses/` | Qaida, Nazra, Hifz, Tajweed (roadmap link) |
-| Progress cards | `/pricing/` | certificates/plans |
-| FAQ 1 | `/courses/noorani-qaida/` | Noorani Qaida |
-| Footer | `/about/`, `/how-it-works/`, `/quality-assurance/` | related pages |
+| Hero CTA | `/free-quran-classes-online/` | Book Free Trial |
+| Pillar 1 | `/online-quran-classes/` | Qaida, Nazra, Hifz, Tajweed (roadmap link) |
+| Progress cards | `/online-quran-classes-cost/` | certificates/plans |
+| FAQ 1 | `/noorani-qaida-online/` | Noorani Qaida |
+| Footer | `/about-quranlyhub/`, `/how-online-quran-classes-work/`, `/certified-quran-teachers-online/` | related pages |
 
 ## 7. Schema
 `@graph`: Organization + BreadcrumbList (Home → About → Teaching Methodology) + FAQPage.
@@ -38,8 +39,8 @@
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://quranlyhub.com/" },
-        { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://quranlyhub.com/about/" },
-        { "@type": "ListItem", "position": 3, "name": "Teaching Methodology", "item": "https://quranlyhub.com/teaching-methodology/" }
+        { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://quranlyhub.com/about-quranlyhub/" },
+        { "@type": "ListItem", "position": 3, "name": "Teaching Methodology", "item": "https://quranlyhub.com/online-quran-teaching-methodology/" }
       ]
     },
     {

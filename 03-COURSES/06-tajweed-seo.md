@@ -1,4 +1,4 @@
-# Tajweed Course — SEO (`/courses/tajweed/`)
+# Tajweed Course — SEO (`/learn-tajweed-online/`)
 
 Applied while building the page — never as a fix-up.
 
@@ -8,8 +8,8 @@ Applied while building the page — never as a fix-up.
 
 ## 2. Title tag (≤ 60 chars)
 
-`Learn Tajweed Online — 1-on-1 Rules & Recitation | QuranlyHub`
-*(58 chars)*
+`Learn Tajweed Online — 1-on-1 Classes | QuranlyHub`
+*(50 chars)*
 
 ## 3. Meta description (≤ 155 chars, CTA)
 
@@ -18,24 +18,24 @@ Applied while building the page — never as a fix-up.
 
 ## 4. URL / canonical
 
-- `https://quranlyhub.com/courses/tajweed/` — self-canonical.
+- `https://quranlyhub.com/learn-tajweed-online/` — self-canonical.
 
 ## 5. On-page structure
 
 - **One H1:** "Learn Tajweed Online and Recite the Quran Beautifully" ✓ keyword in H1
 - H2 order: What You'll Learn in Our Online Tajweed Course → How Our Tajweed Course Works → Tajweed Online for Every Student → Why Learn Tajweed Online With QuranlyHub? → Affordable Tajweed Classes Online → Tajweed — Your Questions, Answered → Recite the Quran the Way It Should Be Recited.
-- Keyword + variants in first 100 words (hero body): "online Tajweed classes teach you Makharij…" ✓
+- Keyword + variants in first 100 words (hero body, **starts with the keyword**): "Learn Tajweed online and recite the Quran with perfect articulation… Our online Tajweed classes teach you Makharij…" ✓
 
 ## 6. Internal links
 
 | From | To | Anchor |
 |---|---|---|
-| Hero ghost | `/courses/` | See All Courses |
+| Hero ghost | `/online-quran-classes/` | See All Courses |
 | Audience cards | `/online-quran-classes-for-<audience>/` | Adults / Beginners / Kids / Sisters |
-| FAQ 2 | `/courses/noorani-qaida/` | start with Noorani Qaida |
-| (structure) | `/courses/nazra/` | Nazra (once live) |
-| Pricing | `/pricing/` | See full pricing |
-| CTA | `/free-trial/` | Book Free Trial |
+| FAQ 2 | `/noorani-qaida-online/` | start with Noorani Qaida |
+| (structure) | `/nazra-course-online/` | Nazra (once live) |
+| Pricing | `/online-quran-classes-cost/` | See full pricing |
+| CTA | `/free-quran-classes-online/` | Book Free Trial |
 | Blog (when live) | `/blog/what-is-tajweed/` | What Is Tajweed |
 
 ## 7. Schema markup — Course + FAQPage + Breadcrumb
@@ -47,7 +47,7 @@ Applied while building the page — never as a fix-up.
     { "@type": "Organization", "@id": "https://quranlyhub.com/#organization" },
     {
       "@type": "Course",
-      "@id": "https://quranlyhub.com/courses/tajweed/#course",
+      "@id": "https://quranlyhub.com/learn-tajweed-online/#course",
       "name": "Tajweed Course — Recite the Quran with Perfect Pronunciation",
       "description": "1-on-1 online Tajweed classes covering Makharij, Sifaat, rules of Noon and Meem, Qalqalah, Madd and Waqf — applied in real Quran recitation.",
       "provider": { "@id": "https://quranlyhub.com/#organization" },
@@ -70,8 +70,8 @@ Applied while building the page — never as a fix-up.
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://quranlyhub.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Online Quran Classes", "item": "https://quranlyhub.com/courses/" },
-        { "@type": "ListItem", "position": 3, "name": "Tajweed Course", "item": "https://quranlyhub.com/courses/tajweed/" }
+        { "@type": "ListItem", "position": 2, "name": "Online Quran Classes", "item": "https://quranlyhub.com/online-quran-classes/" },
+        { "@type": "ListItem", "position": 3, "name": "Tajweed Course", "item": "https://quranlyhub.com/learn-tajweed-online/" }
       ]
     },
     {
@@ -131,7 +131,7 @@ Applied while building the page — never as a fix-up.
 - [ ] Exactly one H1 with keyword
 - [ ] Logical H2/H3, no skips
 - [ ] Keyword in first 100 words
-- [ ] Clean slug `/courses/tajweed/` + self-canonical
+- [ ] Clean slug `/learn-tajweed-online/` + self-canonical
 - [ ] Alt text on all images
 - [ ] 2–3+ internal links (7+ here)
 - [ ] Schema: **Course** + Breadcrumb + FAQPage ✓

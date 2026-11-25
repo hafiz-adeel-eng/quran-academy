@@ -16,7 +16,7 @@ See `02-HOME/01-home-build-guide.md → S0`. One detail to lock globally:
 
 ## 3. CTA band (saved Elementor template, reusable)
 
-- Gold block (`qly-cta-gold`): H2 + one-liner + deep-blue pill button → `/free-trial/`.
+- Gold block (`qly-cta-gold`): H2 + one-liner + deep-blue pill button → `/free-quran-classes-online/`.
 - Reuse on: every course page (end), About, Pricing, Contact, Blog (sidebar/footer of posts), country pages.
 - Text swaps per page (e.g. "Start Your Hifz Journey" on the Hifz page) — keep the free-trial button consistent.
 

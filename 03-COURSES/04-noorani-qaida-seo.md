@@ -1,4 +1,4 @@
-# Noorani Qaida Course — SEO (`/courses/noorani-qaida/`)
+# Noorani Qaida Course — SEO (`/noorani-qaida-online/`)
 
 Applied while building the page — never as a fix-up.
 
@@ -18,24 +18,24 @@ Applied while building the page — never as a fix-up.
 
 ## 4. URL / canonical
 
-- `https://quranlyhub.com/courses/noorani-qaida/` — self-canonical.
+- `https://quranlyhub.com/noorani-qaida-online/` — self-canonical.
 
 ## 5. On-page structure
 
 - **One H1:** "Learn Noorani Qaida Online with a Certified Quran Teacher" ✓ keyword in H1
 - H2 order: What You'll Learn in Our Noorani Qaida Course → How Long Does It Take? → Noorani Qaida Online for Everyone → Why Start With Noorani Qaida? → Affordable Noorani Qaida Classes Online → Noorani Qaida — Your Questions, Answered → Start Reading the Quran Today.
-- Keyword + variants in first 100 words (hero body): "online Noorani Qaida classes teach you Arabic letters…" ✓
+- Keyword + variants in first 100 words (hero body, **starts with the keyword**): "Noorani Qaida online is the first step to reading the Quran. Our online Noorani Qaida classes teach you Arabic letters…" ✓
 
 ## 6. Internal links
 
 | From | To | Anchor |
 |---|---|---|
-| Hero ghost | `/courses/` | See All Courses |
+| Hero ghost | `/online-quran-classes/` | See All Courses |
 | Audience cards | `/online-quran-classes-for-kids/` etc. | Kids / Adults / Beginners / Sisters |
-| Curriculum card 5 | `/courses/nazra/` | ready for Nazra |
-| (structure card) | `/courses/tajweed/` | Tajweed rules (when Tajweed page is live) |
-| Pricing | `/pricing/` | See full pricing |
-| CTA | `/free-trial/` | Book Free Trial |
+| Curriculum card 5 | `/nazra-course-online/` | ready for Nazra |
+| (structure card) | `/learn-tajweed-online/` | Tajweed rules (when Tajweed page is live) |
+| Pricing | `/online-quran-classes-cost/` | See full pricing |
+| CTA | `/free-quran-classes-online/` | Book Free Trial |
 | Blog (when live) | `/blog/noorani-qaida-for-beginners/` | Noorani Qaida for Beginners |
 
 ## 7. Schema markup — Course + FAQPage + Breadcrumb
@@ -47,7 +47,7 @@ Applied while building the page — never as a fix-up.
     { "@type": "Organization", "@id": "https://quranlyhub.com/#organization" },
     {
       "@type": "Course",
-      "@id": "https://quranlyhub.com/courses/noorani-qaida/#course",
+      "@id": "https://quranlyhub.com/noorani-qaida-online/#course",
       "name": "Noorani Qaida Course — Learn to Read Quran Online",
       "description": "1-on-1 online Noorani Qaida classes teaching Arabic letters, Makharij and fluent reading — for kids, adults and complete beginners.",
       "provider": { "@id": "https://quranlyhub.com/#organization" },
@@ -70,8 +70,8 @@ Applied while building the page — never as a fix-up.
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://quranlyhub.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Online Quran Classes", "item": "https://quranlyhub.com/courses/" },
-        { "@type": "ListItem", "position": 3, "name": "Noorani Qaida Course", "item": "https://quranlyhub.com/courses/noorani-qaida/" }
+        { "@type": "ListItem", "position": 2, "name": "Online Quran Classes", "item": "https://quranlyhub.com/online-quran-classes/" },
+        { "@type": "ListItem", "position": 3, "name": "Noorani Qaida Course", "item": "https://quranlyhub.com/noorani-qaida-online/" }
       ]
     },
     {
@@ -131,7 +131,7 @@ Applied while building the page — never as a fix-up.
 - [ ] Exactly one H1 with keyword
 - [ ] Logical H2/H3, no skips
 - [ ] Keyword in first 100 words
-- [ ] Clean slug `/courses/noorani-qaida/` + self-canonical
+- [ ] Clean slug `/noorani-qaida-online/` + self-canonical
 - [ ] Alt text on all images
 - [ ] 2–3+ internal links (7+ here)
 - [ ] Schema: **Course** + Breadcrumb + FAQPage ✓
