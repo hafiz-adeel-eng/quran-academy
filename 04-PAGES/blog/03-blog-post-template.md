@@ -4,7 +4,7 @@ Built once in **Elementor Pro → Theme Builder → Single Post**, applied to al
 
 ## Layout (single column, white)
 
-1. **Featured image** — WebP, `qly-card-arch` top radius, lazy-loaded, fixed height (no CLS). Alt: descriptive per post.
+1. **Featured image** (first image on the page) — WebP, `qly-card-arch` top radius, fixed height (no CLS). **Filename = the post's target keyword** (e.g. `what-is-tajweed.webp`), **alt text contains the keyword**. Not lazy-loaded (it is the LCP image).
 2. **Meta row** (Post Info widget) — category chip · date · author · read time. Inter 13, `#B8850F`.
 3. **Post Title** — this is the **H1** (styled Cormorant 600, desktop 38 / mobile 28, `#123B57`).
 4. **Post Content** — styles:
@@ -17,7 +17,7 @@ Built once in **Elementor Pro → Theme Builder → Single Post**, applied to al
    - Images: all WebP, lazy, alt text, fixed dimensions
 5. **Author box** (Author Box widget, Pro) — tutor/author photo, bio, "About the author" (Cormorant 20).
 6. **Related posts** — Posts widget, exclude current, 3 cards (same style as blog grid). Title `Related Reading`.
-7. **CTA band** — gold `qly-cta-gold`: `Enjoying This Guide?` + `Learn Quran online 1-on-1 with a certified teacher.` + deep-blue pill `Book Free Trial` → `/free-trial/`.
+7. **CTA band** — gold `qly-cta-gold`: `Enjoying This Guide?` + `Learn Quran online 1-on-1 with a certified teacher.` + deep-blue pill `Book Free Trial` → `/free-quran-classes-online/`.
 
 ## SEO wiring for every post (see `posts/*.md`)
 

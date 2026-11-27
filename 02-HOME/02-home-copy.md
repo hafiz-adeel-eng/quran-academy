@@ -7,10 +7,10 @@ Target keyword: **Online Quran Academy**. Natural variants used: *learn Quran on
 - **Eyebrow:** `ONLINE QURAN ACADEMY · LEARN QURAN ONLINE`
 - **H1:** `Your Online Quran Academy for a Lifetime of Guidance`
 - **Subheadline:**
-  > QuranlyHub is the online Quran academy trusted by families in 60+ countries. Learn Quran online with certified, hand-picked teachers — 1-on-1 classes for kids, adults and beginners, taught with Tajweed and a warm personal touch.
+  > Online Quran academy for the whole family — QuranlyHub is trusted by families in 60+ countries. Learn Quran online with certified, hand-picked teachers — 1-on-1 classes for kids, adults and beginners, taught with Tajweed and a warm personal touch.
 - **Buttons:**
-  - `Book Free Trial — Start Today` → `/free-trial/`
-  - `Explore Courses` → `/courses/`
+  - `Book Free Trial — Start Today` → `/free-quran-classes-online/`
+  - `Explore Courses` → `/online-quran-classes/`
 - **Trust badges:** `60+ Countries Served` · `5,000+ Students` · `4.9/5 Parent Rating`
 
 ## S2. Why QuranlyHub (6 cards)
@@ -54,8 +54,8 @@ Target keyword: **Online Quran Academy**. Natural variants used: *learn Quran on
 | Extras | Meet your teacher | Progress reports + certificate | All Standard + family dashboard |
 | CTA | `Start Free Trial` | `Start Standard` | `Start Family` |
 
-All → `/pricing/`.
-- Below: ghost link `See full pricing & payment options →` → `/pricing/`
+All → `/online-quran-classes-cost/`.
+- Below: ghost link `See full pricing & payment options →` → `/online-quran-classes-cost/`
 
 ## S5. Course categories
 
@@ -67,15 +67,15 @@ All → `/pricing/`.
    - Nazra (Quran Reading) Course
    - Hifz (Memorization) Course
    - Tajweed Course
-   - → `View all Quran courses` → `/courses/`
+   - → `View all Quran courses` → `/online-quran-classes/`
 2. **Arabic Language** — icon `fa-language`
    - Quran Translation Course
    - Arabic Reading for Beginners
-   - → `View all Arabic courses` → `/courses/`
+   - → `View all Arabic courses` → `/online-quran-classes/`
 3. **Islamic Studies** — icon `fa-mosque`
    - Tafseer Course
    - Basic Islamic Studies Course (Duas, Salah, Seerah)
-   - → `View all Islamic courses` → `/courses/`
+   - → `View all Islamic courses` → `/online-quran-classes/`
 
 ## S6. Stats counters
 
@@ -119,7 +119,7 @@ Each: `4.9 ★` rating, `View profile →` → `/tutors/`.
 
 - **H2:** `Begin Your Quran Journey Today`
 - **Body:** `Book a free trial class and meet your teacher — no card, no commitment.`
-- **Button:** `Book Free Trial` → `/free-trial/`
+- **Button:** `Book Free Trial` → `/free-quran-classes-online/`
 
 ## S11. Footer
 
@@ -140,7 +140,7 @@ Each: `4.9 ★` rating, `View profile →` → `/tutors/`.
 
 | Image | Alt text |
 |---|---|
-| Hero | `Child learning Quran online with a QuranlyHub teacher — online Quran academy class` |
+| Hero — file `online-quran-academy.webp` | `Online Quran academy — child learning Quran online with a QuranlyHub teacher` |
 | Tutor 1 | `Qari Abdul Rahman — Hifz and Tajweed tutor at QuranlyHub` |
 | Tutor 2 | `Ustadha Khadija Noor — female Quran teacher for sisters at QuranlyHub` |
 | Tutor 3 | `Qari Muhammad Ibrahim — Tajweed and Qira'at tutor at QuranlyHub` |

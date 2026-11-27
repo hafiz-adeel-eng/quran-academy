@@ -1,4 +1,4 @@
-# Courses Hub — SEO (`/courses/`)
+# Courses Hub — SEO (`/online-quran-classes/`)
 
 Applied while building the page — never as a fix-up.
 
@@ -8,8 +8,8 @@ Applied while building the page — never as a fix-up.
 
 ## 2. Title tag (≤ 60 chars)
 
-`Online Quran Classes — Courses, Levels & Pricing | QuranlyHub`
-*(55 chars — keyword first, brand last)*
+`Online Quran Classes — Courses & Pricing | QuranlyHub`
+*(53 chars)*
 
 ## 3. Meta description (≤ 155 chars, CTA)
 
@@ -18,23 +18,23 @@ Applied while building the page — never as a fix-up.
 
 ## 4. URL / canonical
 
-- `https://quranlyhub.com/courses/`
+- `https://quranlyhub.com/online-quran-classes/`
 - Canonical self-referencing (Rank Math default). Confirm it renders in the `<head>`.
 
 ## 5. On-page structure
 
 - **One H1:** "Online Quran Classes for Every Age and Level" — keyword in H1 ✓
 - H2 order: Find the Right Online Quran Class for You → Online Quran Classes for Kids, Adults, Beginners and Sisters → How Our Online Quran Classes Work → Simple Monthly Pricing → Online Quran Classes — Your Questions, Answered → Not Sure Where to Start? Book a Free Trial.
-- Keyword + variants in first 100 words (hero body): "1-on-1 online Quran classes with certified teachers, for kids, adults, beginners and sisters."
+- Keyword + variants in first 100 words (hero body, **starts with the keyword**): "Online Quran classes for every age and level — … 1-on-1 lessons with certified teachers, for kids, adults, beginners and sisters."
 
 ## 6. Internal links
 
 | From | To | Anchor |
 |---|---|---|
-| 8 course cards | `/courses/<slug>/` | course names |
+| 8 course cards | `/online-quran-classes/<slug>/` | course names |
 | 4 audience cards | `/online-quran-classes-for-<audience>/` | Kids / Adults / Beginners / Sisters |
-| Hero CTA | `/free-trial/` | Book Free Trial |
-| Pricing | `/pricing/` | See full pricing |
+| Hero CTA | `/free-quran-classes-online/` | Book Free Trial |
+| Pricing | `/online-quran-classes-cost/` | See full pricing |
 | (schema provider) | Homepage `/#organization` | Organization |
 
 ## 7. Schema markup
@@ -54,7 +54,7 @@ Single schema via Rank Math (or one JSON-LD block — never both). `@graph` entr
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://quranlyhub.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Online Quran Classes", "item": "https://quranlyhub.com/courses/" }
+        { "@type": "ListItem", "position": 2, "name": "Online Quran Classes", "item": "https://quranlyhub.com/online-quran-classes/" }
       ]
     },
     {
@@ -114,7 +114,7 @@ Single schema via Rank Math (or one JSON-LD block — never both). `@graph` entr
 - [ ] Exactly one H1 with keyword
 - [ ] Logical H2/H3, no skips
 - [ ] Keyword in first 100 words
-- [ ] Clean slug `/courses/` + self-canonical
+- [ ] Clean slug `/online-quran-classes/` + self-canonical
 - [ ] Alt text on all images
 - [ ] 2–3+ internal links (12+ here)
 - [ ] Schema: Organization + Breadcrumb + FAQPage

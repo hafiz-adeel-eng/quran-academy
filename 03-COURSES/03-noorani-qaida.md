@@ -1,10 +1,10 @@
-# Noorani Qaida Course — Build Guide + Copy (`/courses/noorani-qaida/`)
+# Noorani Qaida Course — Build Guide + Copy (`/noorani-qaida-online/`)
 
 Target keyword: **noorani qaida online**. Mobile-first build order.
 
 ## Setup
 
-- Create page **Noorani Qaida Course**, slug `/courses/noorani-qaida/`, template **Elementor Full Width**.
+- Create page **Noorani Qaida Course**, slug `/noorani-qaida-online/`, template **Elementor Full Width**.
 - Add `07-courses-css.css`. Reuse the Home/Courses global classes (`qly-hero`, `qly-section`, `qly-card`, `qly-icon-circle`, `qly-cta-gold`, `qly-pricing-card`).
 
 ## S1. Hero — blue band
@@ -12,10 +12,10 @@ Target keyword: **noorani qaida online**. Mobile-first build order.
 - Container `qly-hero` two columns (left text 60% / right image 40%; image below text on mobile).
 - **Eyebrow:** `NOORANI QAIDA · ONLINE QURAN CLASSES` (`#F2C94C`)
 - **H1 (only one):** `Learn Noorani Qaida Online with a Certified Quran Teacher`
-- **Body:** `Noorani Qaida is the first step to reading the Quran. Our online Noorani Qaida classes teach you Arabic letters, pronunciation and joining words — 1-on-1 with a certified teacher, from the very first lesson.`
-- **Buttons:** `Book Free Noorani Qaida Trial` → `/free-trial/`; ghost `See All Courses` → `/courses/`.
+- **Body:** `Noorani Qaida online is the first step to reading the Quran. Our online Noorani Qaida classes teach you Arabic letters, pronunciation and joining words — 1-on-1 with a certified teacher, from the very first lesson.`
+- **Buttons:** `Book Free Noorani Qaida Trial` → `/free-quran-classes-online/`; ghost `See All Courses` → `/online-quran-classes/`.
 - **Trust line:** `For complete beginners · Kids 5+ & adults · Female teachers available`
-- **Image:** `03-ASSETS/placeholder-hero.svg` (swap for a real photo of a child/adult learning the Qaida). Alt: `Child learning Noorani Qaida online with a QuranlyHub teacher — noorani qaida classes online`.
+- **Image:** upload as `noorani-qaida-online.webp` (placeholder `03-ASSETS/page-heroes/noorani-qaida-online.svg` — swap for a real photo of a child/adult learning the Qaida, same base filename). Alt: `Noorani Qaida online — child learning Arabic letters with a QuranlyHub teacher`.
 
 ## S2. What you'll learn — white
 
@@ -42,7 +42,7 @@ Target keyword: **noorani qaida online**. Mobile-first build order.
 - 4 audience cards (links to the future audience pages — see `README.md` keyword map):
   - **Kids (5+)** → `/online-quran-classes-for-kids/` — `Short, fun lessons that keep children engaged.`
   - **Adults** → `/online-quran-classes-for-adults/` — `Learn from the alphabet, in your own time.`
-  - **Beginners** → `/online-quran-classes-for-beginners/` — `Zero prior knowledge needed.`
+  - **Beginners** → `/learn-quran-for-beginners/` — `Zero prior knowledge needed.`
   - **Sisters** → `/online-quran-classes-for-sisters/` — `Certified female teachers available.`
 
 ## S5. Why this course — white
@@ -57,7 +57,7 @@ Target keyword: **noorani qaida online**. Mobile-first build order.
 
 - Eyebrow `PRICING`. H2 `Affordable Noorani Qaida Classes Online`.
 - 3 cards as the Home S4 pattern (`qly-pricing-card` highlight): Free Trial `£0` · Standard `£49/month` (MOST POPULAR) · Family `£69/month`.
-- All → `/pricing/`. Ghost link `See full pricing →`.
+- All → `/online-quran-classes-cost/`. Ghost link `See full pricing →`.
 
 ## S7. FAQ — white
 
@@ -72,13 +72,13 @@ Target keyword: **noorani qaida online**. Mobile-first build order.
 
 ## S8. Final CTA — gold block
 
-- H2 `Start Reading the Quran Today.` Body `Book your free Noorani Qaida trial — meet your teacher, get a level assessment, and take the first step.` Button `Book Free Trial` → `/free-trial/`.
+- H2 `Start Reading the Quran Today.` Body `Book your free Noorani Qaida trial — meet your teacher, get a level assessment, and take the first step.` Button `Book Free Trial` → `/free-quran-classes-online/`.
 
 ## Alt text (Noorani Qaida)
 
 | Image | Alt |
 |---|---|
-| Hero | `Child learning Noorani Qaida online with a QuranlyHub teacher — noorani qaida classes online` |
+| Hero — file `noorani-qaida-online.webp` | `Noorani Qaida online — child learning Arabic letters with a QuranlyHub teacher` |
 | Decorative | `alt=""` |
 
 ## After building

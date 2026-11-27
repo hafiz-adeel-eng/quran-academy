@@ -1,25 +1,26 @@
-# Pricing — Build Guide + Copy (`/pricing/`)
+# Pricing — Build Guide + Copy (`/online-quran-classes-cost/`)
 
 Target keyword: **online quran classes cost** (commercial — unique). Mobile-first.
 
 ## Setup
 
-- Page **Pricing**, slug `/pricing/`, template Elementor Full Width. Uses home global CSS + course CSS.
+- Page **Pricing**, slug `/online-quran-classes-cost/`, template Elementor Full Width. Uses home global CSS + course CSS.
 
 ## S1. Hero — blue band
 
-- `qly-hero` centered. Eyebrow `PRICING` (`#F2C94C`). H1 (only one): `Online Quran Classes Pricing at QuranlyHub`.
-- Body: `Simple, honest pricing for online Quran classes — a free trial to start, then one clear monthly plan that includes everything. No hidden fees, no contracts, cancel anytime.`
+- `qly-hero` centered. Eyebrow `PRICING` (`#F2C94C`). H1 (only one): `Online Quran Classes Cost — Simple, Honest Pricing`.
+- Body: `Online Quran classes cost less than you think: a free trial to start, then one clear monthly plan that includes everything. No hidden fees, no contracts, cancel anytime.`
+- Hero image (first on the page): centered under the buttons, max-width 560px, fixed 560×315, WebP. File `online-quran-classes-cost.webp` (placeholder `03-ASSETS/page-heroes/online-quran-classes-cost.svg`). Alt: `Online Quran classes cost — a family choosing a QuranlyHub monthly plan`.
 - Trust line: `5,000+ students · 4.9/5 rating · No card required for trial`
 
 ## S2. Plan cards — white
 
-- `qly-section`. Eyebrow `CHOOSE YOUR PLAN` (`#B8850F`). H2 `Plans That Fit Every Family`.
+- `qly-section`. Eyebrow `CHOOSE YOUR PLAN` (`#B8850F`). H2 `Online Quran Classes Cost: Plans That Fit Every Family`.
 - **4 cards** (1 col mobile, 4 cols desktop). Standard = blue highlight (`qly-pricing-card`), others white (`qly-card`):
-  1. **Free Trial** — `£0` — *1 free class* — One 30-minute trial class · Level assessment · Meet your teacher — Button `Book Free Trial` → `/free-trial/`
-  2. **Basic** — `£39/month` — *3 classes/week* — 1-on-1 lessons · Progress reports — Button `Choose Basic` → `/free-trial/`
-  3. **Standard** — `£49/month` — *5 classes/week* — MOST POPULAR — 1-on-1 lessons · Progress reports · Level certificates · Priority scheduling — Button `Choose Standard` → `/free-trial/`
-  4. **Family** — `£69/month` — *5 classes/week · up to 4 children* — Everything in Standard · Family dashboard · Shared teacher match — Button `Choose Family` → `/free-trial/`
+  1. **Free Trial** — `£0` — *1 free class* — One 30-minute trial class · Level assessment · Meet your teacher — Button `Book Free Trial` → `/free-quran-classes-online/`
+  2. **Basic** — `£39/month` — *3 classes/week* — 1-on-1 lessons · Progress reports — Button `Choose Basic` → `/free-quran-classes-online/`
+  3. **Standard** — `£49/month` — *5 classes/week* — MOST POPULAR — 1-on-1 lessons · Progress reports · Level certificates · Priority scheduling — Button `Choose Standard` → `/free-quran-classes-online/`
+  4. **Family** — `£69/month` — *5 classes/week · up to 4 children* — Everything in Standard · Family dashboard · Shared teacher match — Button `Choose Family` → `/free-quran-classes-online/`
 - Price color: `#B8850F` on white cards, `#F2C94C` on the blue card. Cormorant 40.
 
 ## S3. Feature comparison — white
@@ -48,7 +49,7 @@ Target keyword: **online quran classes cost** (commercial — unique). Mobile-fi
 
 ## S6. Final CTA — gold block
 
-- H2 `Pick Your Plan and Start Learning.` Body `Not sure? Start with the free trial — nothing to lose, a lifetime of guidance to gain.` Button `Book Free Trial` → `/free-trial/`.
+- H2 `Pick Your Plan and Start Learning.` Body `Not sure? Start with the free trial — nothing to lose, a lifetime of guidance to gain.` Button `Book Free Trial` → `/free-quran-classes-online/`.
 
 ## After building
 

@@ -84,7 +84,7 @@
   if (headerInner && !document.querySelector('.qly-header-cta')) {
     var cta = document.createElement('div');
     cta.className = 'qly-header-cta';
-    cta.innerHTML = '<a href="/free-trial/">Free Trial</a>';
+    cta.innerHTML = '<a href="/free-quran-classes-online/">Free Trial</a>';
     headerInner.appendChild(cta);
   }
 })();

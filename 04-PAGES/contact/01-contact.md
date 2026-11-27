@@ -1,20 +1,21 @@
-# Contact Us — Build Guide + Copy (`/contact/`)
+# Contact Us — Build Guide + Copy (`/contact-quranlyhub/`)
 
-Target keyword: **contact quranlyhub** (unique). Mobile-first. This page handles general enquiries (trials have their own page/form at `/free-trial/`).
+Target keyword: **contact quranlyhub** (unique). Mobile-first. This page handles general enquiries (trials have their own page/form at `/free-quran-classes-online/`).
 
 ## Setup
 
-- Page **Contact Us**, slug `/contact/`, template Elementor Full Width. Uses home global CSS.
+- Page **Contact Us**, slug `/contact-quranlyhub/`, template Elementor Full Width. Uses home global CSS.
 
 ## S1. Hero — blue band
 
 - `qly-hero` centered. Eyebrow `CONTACT US` (`#F2C94C`). H1 (only one): `Contact QuranlyHub — We're Here to Help`.
-- Body: `Questions about courses, pricing or scheduling? Message us any time — our team replies within a few hours, 7 days a week, and we always answer in English (and Urdu).`
+- Body: `Contact QuranlyHub with any question about courses, pricing or scheduling — our team replies within a few hours, 7 days a week, and we always answer in English (and Urdu).`
+- Hero image (first on the page): centered under the body text, max-width 480px, fixed 480×270, WebP ≤ 30 KB. File `contact-quranlyhub.webp` (placeholder `03-ASSETS/page-heroes/contact-quranlyhub.svg`). Alt: `Contact QuranlyHub — support team ready to answer your questions on WhatsApp and email`.
 - Quick line: `Average reply time: under 4 hours`
 
 ## S2. Contact cards — white
 
-- `qly-section`. H2 `Reach Us Any Way You Like`.
+- `qly-section`. H2 `Contact QuranlyHub Any Way You Like`.
 - **4 icon cards** (`qly-card`, icon circles `#D4A017`):
   1. **WhatsApp** (`fa-whatsapp`) — `+44 7700 900123` — `Fastest reply — message us anytime` → link `https://wa.me/447700900123`
   2. **Email** (`fa-envelope`) — `salam@quranlyhub.com` — `For questions and course advice` → `mailto:salam@quranlyhub.com`
@@ -30,7 +31,7 @@ Target keyword: **contact quranlyhub** (unique). Mobile-first. This page handles
   3. Subject (select: Course question, Pricing, Scheduling, Feedback, Other)
   4. Message (textarea, required)
   Submit: `Send Message`
-- **Actions after submit:** `Email` → admin address; `Webhook` → WhatsApp notification (same setup as `/free-trial/`). Success message: `JazakAllah Khair! Your message has been sent — we'll reply within a few hours.`
+- **Actions after submit:** `Email` → admin address; `Webhook` → WhatsApp notification (same setup as `/free-quran-classes-online/`). Success message: `JazakAllah Khair! Your message has been sent — we'll reply within a few hours.`
 - Spam: honeypot ON + reCAPTCHA v3 / Turnstile.
 
 ## S4. FAQ — white
@@ -43,11 +44,11 @@ Target keyword: **contact quranlyhub** (unique). Mobile-first. This page handles
 
 ## S5. Final CTA — gold block
 
-- H2 `Prefer to Just Start Learning?` Body `Skip the questions and book your free trial — it takes 30 seconds.` Button `Book Free Trial` → `/free-trial/`.
+- H2 `Prefer to Just Start Learning?` Body `Skip the questions and book your free trial — it takes 30 seconds.` Button `Book Free Trial` → `/free-quran-classes-online/`.
 
 ## Alt text
 
-No photos needed on this page (keep it fast) — decorative images `alt=""`.
+One small hero image (`contact-quranlyhub.webp`, alt above) — everything else decorative `alt=""`. Keep it fast.
 
 ## After building
 

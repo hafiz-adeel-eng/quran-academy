@@ -1,30 +1,31 @@
-# Free Trial — SEO (`/free-trial/`)
+# Free Trial — SEO (`/free-quran-classes-online/`)
 
 ## 1. Target keyword
 **`free quran classes online`** (transactional — unique; no other page targets "free").
 
 ## 2. Title tag
-`Free Quran Classes Online — Book Your 30-Minute Trial | QuranlyHub` *(59 chars)*
+`Free Quran Classes Online — 30-Minute Trial | QuranlyHub`
+*(56 chars)*
 
 ## 3. Meta description (≤ 155, CTA)
 `Try free Quran classes online at QuranlyHub — a 30-minute trial with a certified teacher. No card, no commitment. Book your slot in 30 seconds.` *(140 chars)*
 
 ## 4. URL / canonical
-`https://quranlyhub.com/free-trial/` — self-canonical. This page is linked from **every** CTA site-wide — internal-link strength is high by design.
+`https://quranlyhub.com/free-quran-classes-online/` — self-canonical. This page is linked from **every** CTA site-wide — internal-link strength is high by design.
 
 ## 5. On-page structure
 - **One H1:** "Book Free Quran Classes Online — Your 30-Minute Trial"
-- H2 order: What Happens in Your 30-Minute Trial → (social proof, no heading) → Free Trial Questions → Still Unsure? WhatsApp Us.
-- Keyword in H1 + first 100 words (hero body + checklist). ✓
+- H2 order: Free Quran Classes Online: What Happens in Your 30-Minute Trial → (social proof, no heading) → Free Trial Questions → Still Unsure? WhatsApp Us.
+- Keyword in title, H1, an H2, and at the **start** of the hero body ("Free Quran classes online with QuranlyHub: a 30-minute online Quran class…"). ✓
 
 ## 6. Internal links
 | From | To | Anchor |
 |---|---|---|
-| Hero pitch | `/about/` | QuranlyHub |
-| Checklist line | `/courses/` | course recommendation |
-| FAQ 3 | `/courses/noorani-qaida/` | very first letter |
-| Final CTA | `/pricing/` | See Full Pricing |
-| (every CTA site-wide) | `/free-trial/` | in-bound |
+| Hero pitch | `/about-quranlyhub/` | QuranlyHub |
+| Checklist line | `/online-quran-classes/` | course recommendation |
+| FAQ 3 | `/noorani-qaida-online/` | very first letter |
+| Final CTA | `/online-quran-classes-cost/` | See Full Pricing |
+| (every CTA site-wide) | `/free-quran-classes-online/` | in-bound |
 
 ## 7. Schema
 `@graph`: Organization + BreadcrumbList (Home → Free Trial) + FAQPage.
@@ -38,7 +39,7 @@
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://quranlyhub.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Free Trial", "item": "https://quranlyhub.com/free-trial/" }
+        { "@type": "ListItem", "position": 2, "name": "Free Trial", "item": "https://quranlyhub.com/free-quran-classes-online/" }
       ]
     },
     {

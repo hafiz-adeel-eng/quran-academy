@@ -5,6 +5,16 @@ Apply to **every** page before it is considered done — Home first, then every 
 ## Before writing any content
 - [ ] One target keyword/phrase decided (never the same exact keyword as another page — check the keyword map in `00-SETUP/03-seo-tools-setup.md`)
 
+## Target keyword placement — all 8 (checked per page in `keyword-placement-audit.md`)
+- [ ] 1. **URL** — slug contains the exact keyword (`online quran classes` → `/online-quran-classes/`). Home is the only exception (`/` has no slug).
+- [ ] 2. **Title** — SEO title contains the keyword (near the start), ≤ 60 chars
+- [ ] 3. **Meta description** — contains the keyword + a call to action, ≤ 155 chars
+- [ ] 4. **H1** — contains the keyword
+- [ ] 5. **H2** — at least one H2 contains the keyword
+- [ ] 6. **First paragraph** — the page's first paragraph **starts with** the keyword
+- [ ] 7. **First image filename** — the first image in the page content is named after the keyword (`online-quran-classes.webp`)
+- [ ] 8. **First image alt text** — contains the keyword (a plain description that reads naturally, not a stuffed list)
+
 ## While building the page
 - [ ] SEO title written — unique, under ~60 chars, target keyword near the start
 - [ ] Meta description written — unique, under ~155 chars, includes a call to action

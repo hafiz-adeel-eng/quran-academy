@@ -1,4 +1,4 @@
-# How It Works — SEO (`/how-it-works/`)
+# How It Works — SEO (`/how-online-quran-classes-work/`)
 
 ## 1. Target keyword
 **`how online quran classes work`** (how-to, unique).
@@ -10,21 +10,21 @@
 `See exactly how online Quran classes work at QuranlyHub — free trial, level assessment, teacher match and live 1-on-1 lessons. Book your free trial today.` *(150 chars)*
 
 ## 4. URL / canonical
-`https://quranlyhub.com/how-it-works/` — self-canonical.
+`https://quranlyhub.com/how-online-quran-classes-work/` — self-canonical.
 
 ## 5. On-page structure
 - **One H1:** "How Online Quran Classes Work at QuranlyHub"
-- H2 order: Four Simple Steps to Start Learning → What You Need to Get Started → After Your Free Trial → Questions About How We Work → Ready When You Are.
-- "online Quran classes" appears in H1 and first 100 words. ✓
+- H2 order: How Online Quran Classes Work: Four Simple Steps → What You Need to Get Started → After Your Free Trial → Questions About How We Work → Ready When You Are.
+- Keyword in H1, in an H2, and at the **start** of the hero body ("How online Quran classes work at QuranlyHub is simple…"). ✓
 
 ## 6. Internal links
 | From | To | Anchor |
 |---|---|---|
-| Hero CTA | `/free-trial/` | Start With a Free Trial |
-| Step 1 | `/free-trial/` | 30-second form |
-| What you need card | `/pricing/` | free with your classes (→pricing for plans) |
-| Footer | `/about/`, `/teaching-methodology/`, `/quality-assurance/` | About / Methodology / Quality |
-| FAQ 2 | `/contact/` | contact page (once live) |
+| Hero CTA | `/free-quran-classes-online/` | Start With a Free Trial |
+| Step 1 | `/free-quran-classes-online/` | 30-second form |
+| What you need card | `/online-quran-classes-cost/` | free with your classes (→pricing for plans) |
+| Footer | `/about-quranlyhub/`, `/online-quran-teaching-methodology/`, `/certified-quran-teachers-online/` | About / Methodology / Quality |
+| FAQ 2 | `/contact-quranlyhub/` | contact page (once live) |
 
 ## 7. Schema
 `@graph`: Organization + BreadcrumbList (Home → How It Works) + FAQPage.
@@ -38,7 +38,7 @@
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://quranlyhub.com/" },
-        { "@type": "ListItem", "position": 2, "name": "How It Works", "item": "https://quranlyhub.com/how-it-works/" }
+        { "@type": "ListItem", "position": 2, "name": "How It Works", "item": "https://quranlyhub.com/how-online-quran-classes-work/" }
       ]
     },
     {

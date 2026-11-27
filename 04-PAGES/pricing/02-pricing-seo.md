@@ -1,29 +1,29 @@
-# Pricing — SEO (`/pricing/`)
+# Pricing — SEO (`/online-quran-classes-cost/`)
 
 ## 1. Target keyword
 **`online quran classes cost`** (commercial intent — unique; Home owns "online quran academy", hub owns "online quran classes").
 
 ## 2. Title tag
-`Pricing — Online Quran Classes Cost & Plans | QuranlyHub` *(56 chars)*
+`Online Quran Classes Cost — Pricing & Plans | QuranlyHub` *(56 chars)*
 
 ## 3. Meta description (≤ 155, CTA)
-`See QuranlyHub pricing — a free trial, then simple monthly plans from £39/month. No hidden fees, cancel anytime. Compare plans and book your free trial.` *(137 chars)*
+`Online Quran classes cost from £39/month after a free trial. No hidden fees, cancel anytime. Compare QuranlyHub plans and book your free trial today.` *(149 chars)*
 
 ## 4. URL / canonical
-`https://quranlyhub.com/pricing/` — self-canonical.
+`https://quranlyhub.com/online-quran-classes-cost/` — self-canonical.
 
 ## 5. On-page structure
-- **One H1:** "Online Quran Classes Pricing at QuranlyHub"
-- H2 order: Plans That Fit Every Family → What Every Plan Includes → No Hidden Costs, Ever → Pricing Questions, Answered → Pick Your Plan and Start Learning.
-- Keyword in H1 + first 100 words. ✓
+- **One H1:** "Online Quran Classes Cost — Simple, Honest Pricing"
+- H2 order: Online Quran Classes Cost: Plans That Fit Every Family → What Every Plan Includes → No Hidden Costs, Ever → Pricing Questions, Answered → Pick Your Plan and Start Learning.
+- Keyword in title, H1, an H2, and at the **start** of the hero body ("Online Quran classes cost less than you think…"). ✓
 
 ## 6. Internal links
 | From | To | Anchor |
 |---|---|---|
-| All plan CTAs | `/free-trial/` | Book Free Trial / Choose Standard etc. |
+| All plan CTAs | `/free-quran-classes-online/` | Book Free Trial / Choose Standard etc. |
 | FAQ 6 | `/quran-classes-in-uk/` etc. | country pages (local pricing) |
-| Feature table | `/courses/` | course names context |
-| Footer | `/free-trial/`, `/how-it-works/` | Free Trial / How It Works |
+| Feature table | `/online-quran-classes/` | course names context |
+| Footer | `/free-quran-classes-online/`, `/how-online-quran-classes-work/` | Free Trial / How It Works |
 
 ## 7. Schema
 `@graph`: Organization + BreadcrumbList (Home → Pricing) + FAQPage + `OfferCatalog` (the plans).
@@ -37,7 +37,7 @@
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://quranlyhub.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Pricing", "item": "https://quranlyhub.com/pricing/" }
+        { "@type": "ListItem", "position": 2, "name": "Pricing", "item": "https://quranlyhub.com/online-quran-classes-cost/" }
       ]
     },
     {

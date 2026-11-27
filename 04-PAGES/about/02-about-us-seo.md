@@ -1,30 +1,30 @@
-# About Us — SEO (`/about/`)
+# About Us — SEO (`/about-quranlyhub/`)
 
 ## 1. Target keyword
 **`about quranlyhub`** (brand informational). Uses "online Quran academy" as a *variant* only — Home owns that exact keyword.
 
 ## 2. Title tag
-`About Us — The QuranlyHub Story | QuranlyHub` *(42 chars)*
+`About QuranlyHub — Our Story, Mission & Values` *(46 chars)*
 
 ## 3. Meta description (≤ 155, CTA)
-`Meet QuranlyHub — an online Quran academy founded to bring certified Quran teachers to every home. Read our story, mission and values, then try us free.` *(142 chars)*
+`About QuranlyHub — an online Quran academy founded to bring certified Quran teachers to every home. Read our story and mission, then try us free.` *(145 chars)*
 
 ## 4. URL / canonical
-`https://quranlyhub.com/about/` — self-canonical.
+`https://quranlyhub.com/about-quranlyhub/` — self-canonical.
 
 ## 5. On-page structure
 - **One H1:** "About QuranlyHub — Bringing Quran Teachers to Every Home"
-- H2 order: Why We Built QuranlyHub → Our Mission & Vision → What We Stand For → The QuranlyHub Difference → Questions About QuranlyHub → Come and See For Yourself.
-- "online Quran academy" appears in the first 100 words (hero body) as a variant. ✓
+- H2 order: About QuranlyHub: Why We Built It → Our Mission & Vision → What We Stand For → The QuranlyHub Difference → Questions About QuranlyHub → Come and See For Yourself.
+- Hero body **starts with the keyword** ("About QuranlyHub: we are an online Quran academy on a mission…") and uses "online Quran academy" as a variant. ✓
 
 ## 6. Internal links
 | From | To | Anchor |
 |---|---|---|
-| Hero CTA | `/free-trial/` | Book Free Trial |
-| Story body | `/courses/noorani-qaida/` | Noorani Qaida |
-| Story body | `/courses/hifz/` | full Hifz |
+| Hero CTA | `/free-quran-classes-online/` | Book Free Trial |
+| Story body | `/noorani-qaida-online/` | Noorani Qaida |
+| Story body | `/online-hifz-classes/` | full Hifz |
 | Story body | `/quran-classes-in-uk/` (etc.) | UK, USA, Canada, Australia |
-| Footer (site-wide) | `/how-it-works/`, `/teaching-methodology/`, `/quality-assurance/` | subpages |
+| Footer (site-wide) | `/how-online-quran-classes-work/`, `/online-quran-teaching-methodology/`, `/certified-quran-teachers-online/` | subpages |
 
 ## 7. Schema
 `@graph`: Organization (global `@id`) + BreadcrumbList (Home → About). No FAQPage duplication elsewhere.
@@ -38,7 +38,7 @@
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://quranlyhub.com/" },
-        { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://quranlyhub.com/about/" }
+        { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://quranlyhub.com/about-quranlyhub/" }
       ]
     },
     {
@@ -80,7 +80,7 @@ og:title = title; og:description = meta; og:image = 1200×630 brand card; twitte
 - [ ] One H1 with keyword
 - [ ] H2/H3 logical, no skips
 - [ ] Keyword/variant in first 100 words
-- [ ] Clean slug `/about/` + canonical
+- [ ] Clean slug `/about-quranlyhub/` + canonical
 - [ ] Alt text on all images
 - [ ] 2–3+ internal links
 - [ ] Schema: Organization + Breadcrumb + FAQPage

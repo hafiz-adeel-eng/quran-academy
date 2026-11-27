@@ -1,25 +1,25 @@
-# About Us — Build Guide + Copy (`/about/`)
+# About Us — Build Guide + Copy (`/about-quranlyhub/`)
 
 Target keyword: **about quranlyhub** (brand/informational — no other page owns it). Mobile-first.
 
 ## Setup
 
-- Page **About Us**, slug `/about/`, template Elementor Full Width. Add `02-HOME/03-home-custom-css.css` (global classes).
+- Page **About Us**, slug `/about-quranlyhub/`, template Elementor Full Width. Add `02-HOME/03-home-custom-css.css` (global classes).
 
 ## S1. Hero — blue band
 
 - `qly-hero` centered, max-width 720px. Eyebrow `ABOUT US` (`#F2C94C`). H1 (only one): `About QuranlyHub — Bringing Quran Teachers to Every Home`.
-- Body: `QuranlyHub is an online Quran academy on a mission: certified, caring Quran teachers, a structured curriculum, and honest pricing — in every home, in 60+ countries, on any device.`
-- CTA: gold `Book Free Trial` → `/free-trial/`.
+- Body: `About QuranlyHub: we are an online Quran academy on a mission — certified, caring Quran teachers, a structured curriculum, and honest pricing, in every home, in 60+ countries, on any device.`
+- CTA: gold `Book Free Trial` → `/free-quran-classes-online/`.
 
 ## S2. Our story — white
 
-- `qly-section` white. Eyebrow `OUR STORY` (`#B8850F`). H2 `Why We Built QuranlyHub`.
+- `qly-section` white. Eyebrow `OUR STORY` (`#B8850F`). H2 `About QuranlyHub: Why We Built It`.
 - Body (2 columns: text + image; image below text on mobile):
   > QuranlyHub began with a simple problem. Families in the UK, USA, Canada and Australia struggled to find Quran teachers they could trust — teachers who were certified, reliable, and available at times that actually worked. So we built the academy we wished existed: every teacher personally vetted, every lesson 1-on-1, every price transparent.
   >
   > Today, thousands of students learn Quran online with us — from their first Noorani Qaida letter to full Hifz — with the same warmth and care we started with. That promise hasn't changed.
-- Image: `03-ASSETS/placeholder-hero.svg`. Alt: `QuranlyHub online Quran academy — students and teachers in a live online class`.
+- Image (first on the page): upload as `about-quranlyhub.webp` (placeholder `03-ASSETS/page-heroes/about-quranlyhub.svg`, same base filename). Alt: `About QuranlyHub — students and teachers in a live online Quran class`.
 
 ## S3. Mission & vision — white
 
@@ -54,7 +54,7 @@ Target keyword: **about quranlyhub** (brand/informational — no other page owns
 
 ## S7. Final CTA — gold block
 
-- H2 `Come and See For Yourself.` Body `Join 5,000+ students learning Quran online with QuranlyHub. Start with a free trial — no card, no commitment.` Button `Book Free Trial` → `/free-trial/`.
+- H2 `Come and See For Yourself.` Body `Join 5,000+ students learning Quran online with QuranlyHub. Start with a free trial — no card, no commitment.` Button `Book Free Trial` → `/free-quran-classes-online/`.
 
 ## After building
 
